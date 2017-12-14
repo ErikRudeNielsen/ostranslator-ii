@@ -46,20 +46,20 @@
 <os:metadata xlink:href="http://www.os.uk/xml/products/Highways.xml"/>
 
 <os:featureMember><!-->Road<-->
-<highway:Road gml:id="osgb4000000003210673">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210673</gml:identifier>
+<highway:Road gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003210673</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
         <net:inNetwork xlink:href="#OSHighwayNetwork"/>
-        <net:link xlink:href="#osgb4000000003210462"/>
-        <net:link xlink:href="#osgb4000000003210472"/>
-        <net:link xlink:href="#osgb4000000003210538"/>
-        <net:link xlink:href="#osgb4000000003210607"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
         <tn:validFrom nilReason="unknown" xsi:nil="true"/>
         <highway:designatedName>
           <highway:DesignatedNameType>
@@ -77,7 +77,7 @@
 </os:featureMember>
 <os:featureMember><!-->RoadLink<-->
 <highway:RoadLink gml:id="osgb----------------">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210383</gml:identifier>
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
         <net:inspireId>
           <base:Identifier>
@@ -92,8 +92,8 @@
           </gml:LineString>
         </net:centrelineGeometry>
         <net:fictitious>false</net:fictitious>
-        <net:endNode xlink:href="#osgb5000005110061922"/>
-        <net:startNode xlink:href="#osgb4000000003210112"/>
+        <net:endNode xlink:href="#osgb4000000000000000"/>
+        <net:startNode xlink:href="#osgb4000000000000000"/>
         <tn:validFrom nilReason="unknown" xsi:nil="true"/>
         <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry And Attributes</highway:reasonForChange>
         <highway:roadClassification codeSpace="http://www.os.uk/xml/codelists/RoadClassificationValue.xml">Unknown</highway:roadClassification>
@@ -124,7 +124,7 @@
         <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000006</gml:identifier>
         <net:networkRef>
           <network:PointReference>
-            <net:element xlink:href="#osgb4000000026232819"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
             <net:atPosition uom="m">7.26</net:atPosition>
             <network:atPositionGeometry>
@@ -151,12 +151,12 @@
       </ram:RestrictionForVehicles>
 </os:featureMember>
 <os:featureMember><!-->RoadNode<-->
-<highway:RoadNode gml:id="osgb4000000003210071">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210071</gml:identifier>
+<highway:RoadNode gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003210071</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -169,16 +169,16 @@
         <tn:validFrom nilReason="unknown" xsi:nil="true"/>
         <tn-ro:formOfRoadNode xlink:title="road end" xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/roadEnd"/>
         <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</highway:reasonForChange>
-        <highway:relatedRoadArea xlink:href="#osgb1000000042007835"/>
+        <highway:relatedRoadArea xlink:href="#osgb4000000000000000"/>
       </highway:RoadNode>
 </os:featureMember>
 <os:featureMember><!-->FerryTerminal<-->
 <hwtn:FerryTerminal gml:id="osgb----------------'>">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003213040</gml:identifier>
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:beginLifespanVersion>2017-01-20T00:00:00.000</net:beginLifespanVersion>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003213040</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -193,7 +193,7 @@
 </os:featureMember>
 <os:featureMember><!-->FerryNode<-->
 <hwtn:FerryNode gml:id="osgb----------------">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003213039</gml:identifier>
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
         <net:inspireId>
           <base:Identifier>
@@ -214,11 +214,11 @@
 </os:featureMember>
 <os:featureMember><!-->FerryLink<-->
 <hwtn:FerryLink gml:id="osgb---------------7">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210687</gml:identifier>
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003210687</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -309,42 +309,12 @@
           </base:Identifier>
         </net:inspireId>
         <net:inNetwork xlink:href="#OSHighwayNetwork"/>
-        <net:link xlink:href="#osgb4000000007822530"/>
-        <net:link xlink:href="#osgb4000000007822537"/>
-        <net:link xlink:href="#osgb4000000007822538"/>
-        <net:link xlink:href="#osgb4000000007822549"/>
-        <net:link xlink:href="#osgb4000000007822550"/>
-        <net:link xlink:href="#osgb4000000007822551"/>
-        <net:link xlink:href="#osgb4000000007822552"/>
-        <net:link xlink:href="#osgb4000000007822553"/>
-        <net:link xlink:href="#osgb4000000007822554"/>
-        <net:link xlink:href="#osgb4000000007822558"/>
-        <net:link xlink:href="#osgb4000000007822559"/>
-        <net:link xlink:href="#osgb4000000007822560"/>
-        <net:link xlink:href="#osgb4000000007822566"/>
-        <net:link xlink:href="#osgb4000000007822567"/>
-        <net:link xlink:href="#osgb4000000007822568"/>
-        <net:link xlink:href="#osgb4000000007822569"/>
-        <net:link xlink:href="#osgb4000000007822577"/>
-        <net:link xlink:href="#osgb4000000007822578"/>
-        <net:link xlink:href="#osgb4000000007822582"/>
-        <net:link xlink:href="#osgb4000000007822583"/>
-        <net:link xlink:href="#osgb4000000007822584"/>
-        <net:link xlink:href="#osgb4000000007823269"/>
-        <net:link xlink:href="#osgb4000000007823270"/>
-        <net:link xlink:href="#osgb4000000007936682"/>
-        <net:link xlink:href="#osgb4000000008011360"/>
-        <net:link xlink:href="#osgb4000000008011365"/>
-        <net:link xlink:href="#osgb4000000008011366"/>
-        <net:link xlink:href="#osgb4000000008011367"/>
-        <net:link xlink:href="#osgb4000000008011372"/>
-        <net:link xlink:href="#osgb4000000008011377"/>
-        <net:link xlink:href="#osgb4000000008011381"/>
-        <net:link xlink:href="#osgb4000000008011392"/>
-        <net:link xlink:href="#osgb4000000008011393"/>
-        <net:link xlink:href="#osgb4000000008055377"/>
-        <net:link xlink:href="#osgb5000005124241293"/>
-        <net:link xlink:href="#osgb5000005124241294"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
         <tn:validFrom>2013-09-02T00:00:00.000</tn:validFrom>
         <tn-ro:localRoadCode>C150</tn-ro:localRoadCode>
         <highway:roadClassification codeSpace="http://www.os.uk/xml/codelists/RoadClassificationValue.xml">Classified Unnumbered</highway:roadClassification>
@@ -468,148 +438,12 @@
           </base:Identifier>
         </net:inspireId>
         <net:inNetwork xlink:href="#OSHighwayNetwork"/>
-        <net:link xlink:href="#osgb4000000007683554"/>
-        <net:link xlink:href="#osgb4000000007685585"/>
-        <net:link xlink:href="#osgb4000000007685586"/>
-        <net:link xlink:href="#osgb4000000007685587"/>
-        <net:link xlink:href="#osgb4000000007685588"/>
-        <net:link xlink:href="#osgb4000000007685591"/>
-        <net:link xlink:href="#osgb4000000007685592"/>
-        <net:link xlink:href="#osgb4000000007685594"/>
-        <net:link xlink:href="#osgb4000000007685595"/>
-        <net:link xlink:href="#osgb4000000007685597"/>
-        <net:link xlink:href="#osgb4000000007685598"/>
-        <net:link xlink:href="#osgb4000000007685601"/>
-        <net:link xlink:href="#osgb4000000007685602"/>
-        <net:link xlink:href="#osgb4000000007685606"/>
-        <net:link xlink:href="#osgb4000000007685607"/>
-        <net:link xlink:href="#osgb4000000007685608"/>
-        <net:link xlink:href="#osgb4000000007685609"/>
-        <net:link xlink:href="#osgb4000000007685610"/>
-        <net:link xlink:href="#osgb4000000007685611"/>
-        <net:link xlink:href="#osgb4000000007685665"/>
-        <net:link xlink:href="#osgb4000000007685722"/>
-        <net:link xlink:href="#osgb4000000007814760"/>
-        <net:link xlink:href="#osgb4000000007814761"/>
-        <net:link xlink:href="#osgb4000000007814762"/>
-        <net:link xlink:href="#osgb4000000007814763"/>
-        <net:link xlink:href="#osgb4000000007814764"/>
-        <net:link xlink:href="#osgb4000000007814765"/>
-        <net:link xlink:href="#osgb4000000007814766"/>
-        <net:link xlink:href="#osgb4000000007814767"/>
-        <net:link xlink:href="#osgb4000000007814768"/>
-        <net:link xlink:href="#osgb4000000007814769"/>
-        <net:link xlink:href="#osgb4000000007814771"/>
-        <net:link xlink:href="#osgb4000000007814772"/>
-        <net:link xlink:href="#osgb4000000007814773"/>
-        <net:link xlink:href="#osgb4000000007814774"/>
-        <net:link xlink:href="#osgb4000000007814775"/>
-        <net:link xlink:href="#osgb4000000007814776"/>
-        <net:link xlink:href="#osgb4000000007814777"/>
-        <net:link xlink:href="#osgb4000000007814778"/>
-        <net:link xlink:href="#osgb4000000007814779"/>
-        <net:link xlink:href="#osgb4000000007814780"/>
-        <net:link xlink:href="#osgb4000000007814781"/>
-        <net:link xlink:href="#osgb4000000007814786"/>
-        <net:link xlink:href="#osgb4000000007814835"/>
-        <net:link xlink:href="#osgb4000000007814847"/>
-        <net:link xlink:href="#osgb4000000007814871"/>
-        <net:link xlink:href="#osgb4000000007815313"/>
-        <net:link xlink:href="#osgb4000000007815321"/>
-        <net:link xlink:href="#osgb4000000007815322"/>
-        <net:link xlink:href="#osgb4000000007815323"/>
-        <net:link xlink:href="#osgb4000000007815324"/>
-        <net:link xlink:href="#osgb4000000007815325"/>
-        <net:link xlink:href="#osgb4000000007815326"/>
-        <net:link xlink:href="#osgb4000000007815335"/>
-        <net:link xlink:href="#osgb4000000007815336"/>
-        <net:link xlink:href="#osgb4000000007815337"/>
-        <net:link xlink:href="#osgb4000000007815356"/>
-        <net:link xlink:href="#osgb4000000007815360"/>
-        <net:link xlink:href="#osgb4000000007815361"/>
-        <net:link xlink:href="#osgb4000000007815363"/>
-        <net:link xlink:href="#osgb4000000007815364"/>
-        <net:link xlink:href="#osgb4000000007815366"/>
-        <net:link xlink:href="#osgb4000000007816585"/>
-        <net:link xlink:href="#osgb4000000007816586"/>
-        <net:link xlink:href="#osgb4000000007816588"/>
-        <net:link xlink:href="#osgb4000000007816589"/>
-        <net:link xlink:href="#osgb4000000007816590"/>
-        <net:link xlink:href="#osgb4000000007816591"/>
-        <net:link xlink:href="#osgb4000000007816592"/>
-        <net:link xlink:href="#osgb4000000007816593"/>
-        <net:link xlink:href="#osgb4000000007816595"/>
-        <net:link xlink:href="#osgb4000000007816598"/>
-        <net:link xlink:href="#osgb4000000007816599"/>
-        <net:link xlink:href="#osgb4000000007816601"/>
-        <net:link xlink:href="#osgb4000000007816604"/>
-        <net:link xlink:href="#osgb4000000007816605"/>
-        <net:link xlink:href="#osgb4000000007816609"/>
-        <net:link xlink:href="#osgb4000000007816613"/>
-        <net:link xlink:href="#osgb4000000007816616"/>
-        <net:link xlink:href="#osgb4000000007816621"/>
-        <net:link xlink:href="#osgb4000000007816623"/>
-        <net:link xlink:href="#osgb4000000007816628"/>
-        <net:link xlink:href="#osgb4000000007816629"/>
-        <net:link xlink:href="#osgb4000000007816630"/>
-        <net:link xlink:href="#osgb4000000007816631"/>
-        <net:link xlink:href="#osgb4000000007816632"/>
-        <net:link xlink:href="#osgb4000000007816633"/>
-        <net:link xlink:href="#osgb4000000007816634"/>
-        <net:link xlink:href="#osgb4000000007816635"/>
-        <net:link xlink:href="#osgb4000000007816636"/>
-        <net:link xlink:href="#osgb4000000007816637"/>
-        <net:link xlink:href="#osgb4000000007816638"/>
-        <net:link xlink:href="#osgb4000000007816639"/>
-        <net:link xlink:href="#osgb4000000007816647"/>
-        <net:link xlink:href="#osgb4000000007816653"/>
-        <net:link xlink:href="#osgb4000000007816660"/>
-        <net:link xlink:href="#osgb4000000007816661"/>
-        <net:link xlink:href="#osgb4000000007816664"/>
-        <net:link xlink:href="#osgb4000000007816677"/>
-        <net:link xlink:href="#osgb4000000007816678"/>
-        <net:link xlink:href="#osgb4000000007816679"/>
-        <net:link xlink:href="#osgb4000000007816684"/>
-        <net:link xlink:href="#osgb4000000007816685"/>
-        <net:link xlink:href="#osgb4000000007816686"/>
-        <net:link xlink:href="#osgb4000000007816698"/>
-        <net:link xlink:href="#osgb4000000007867036"/>
-        <net:link xlink:href="#osgb4000000007983390"/>
-        <net:link xlink:href="#osgb4000000007988881"/>
-        <net:link xlink:href="#osgb4000000007988882"/>
-        <net:link xlink:href="#osgb4000000007990542"/>
-        <net:link xlink:href="#osgb4000000007990544"/>
-        <net:link xlink:href="#osgb4000000007990552"/>
-        <net:link xlink:href="#osgb4000000008004115"/>
-        <net:link xlink:href="#osgb4000000008012719"/>
-        <net:link xlink:href="#osgb4000000008012720"/>
-        <net:link xlink:href="#osgb4000000008037163"/>
-        <net:link xlink:href="#osgb4000000008055981"/>
-        <net:link xlink:href="#osgb4000000008068300"/>
-        <net:link xlink:href="#osgb4000000008069791"/>
-        <net:link xlink:href="#osgb5000005106285990"/>
-        <net:link xlink:href="#osgb5000005114767729"/>
-        <net:link xlink:href="#osgb5000005119915246"/>
-        <net:link xlink:href="#osgb5000005122878624"/>
-        <net:link xlink:href="#osgb5000005132892592"/>
-        <net:link xlink:href="#osgb5000005132892594"/>
-        <net:link xlink:href="#osgb5000005132892598"/>
-        <net:link xlink:href="#osgb5000005132892599"/>
-        <net:link xlink:href="#osgb5000005132892600"/>
-        <net:link xlink:href="#osgb5000005132892601"/>
-        <net:link xlink:href="#osgb5000005132892611"/>
-        <net:link xlink:href="#osgb5000005132892620"/>
-        <net:link xlink:href="#osgb5000005132892632"/>
-        <net:link xlink:href="#osgb5000005132892634"/>
-        <net:link xlink:href="#osgb5000005132892636"/>
-        <net:link xlink:href="#osgb5000005132892651"/>
-        <net:link xlink:href="#osgb5000005132892652"/>
-        <net:link xlink:href="#osgb5000005132892663"/>
-        <net:link xlink:href="#osgb5000005132892674"/>
-        <net:link xlink:href="#osgb5000005132892683"/>
-        <net:link xlink:href="#osgb5000005132892724"/>
-        <net:link xlink:href="#osgb5000005132892743"/>
-        <net:link xlink:href="#osgb5000005132948517"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
+        <net:link xlink:href="#osgb4000000000000000"/>
         <tn:validFrom>2013-09-02T00:00:00.000</tn:validFrom>
         <tn-ro:nationalRoadCode>A689</tn-ro:nationalRoadCode>
         <highway:roadClassification codeSpace="http://www.os.uk/xml/codelists/RoadClassificationValue.xml">A Road</highway:roadClassification>
@@ -924,11 +758,11 @@
 </os:featureMember>
 
 <os:featureMember><!-->AccessRestriction<-->
-<ram:AccessRestriction gml:id="osgb4000000003210839">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210839</gml:identifier>
+<ram:AccessRestriction gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:networkRef>
           <network:PointReference>
-            <net:element xlink:href="#osgb4000000003210854"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:title="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection" xlink:href="#in opposite direction"/>
             <net:atPosition uom="m">36.24</net:atPosition>
             <network:atPositionGeometry>
@@ -940,7 +774,7 @@
         </net:networkRef>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003210839</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -962,11 +796,11 @@
       </ram:AccessRestriction>
 </os:featureMember>
 <os:featureMember><!-->Hazard<-->
-<ram:Hazard gml:id="osgb4000000003222742">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003222742</gml:identifier>
+<ram:Hazard gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:networkRef>
           <network:PointReference>
-            <net:element xlink:href="#osgb5000005111016618"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:title="both directions" xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections"/>
             <net:atPosition uom="m">522.14</net:atPosition>
             <network:atPositionGeometry>
@@ -978,7 +812,7 @@
         </net:networkRef>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003222742</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -990,23 +824,23 @@
 </os:featureMember>
 
 <os:featureMember><!-->Hazard<-->
-<ram:Hazard gml:id="osgb4000000003301935">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003301935</gml:identifier>
+<ram:Hazard gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:networkRef>
           <net:LinkReference>
-            <net:element xlink:href="#osgb4000000003305135"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:title="in opposite direction" xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection"/>
           </net:LinkReference>
         </net:networkRef>
         <net:networkRef>
           <net:LinkReference>
-            <net:element xlink:href="#osgb4000000003305561"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:title="in opposite direction" xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection"/>
           </net:LinkReference>
         </net:networkRef>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003301935</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -1153,7 +987,7 @@
         <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000006</gml:identifier>
         <net:networkRef>
           <network:PointReference>
-            <net:element xlink:href="#osgb4000000026232819"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
             <net:atPosition uom="m">7.26</net:atPosition>
             <network:atPositionGeometry>
@@ -1254,11 +1088,11 @@
       </ram:SpecialDesignation>
 </os:featureMember>
 <os:featureMember><!-->Structure<-->
-<ram:Structure gml:id="osgb4000000003210020">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210020</gml:identifier>
+<ram:Structure gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:networkRef>
           <network:PointReference>
-            <net:element xlink:href="#osgb4000000003210506"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
             <net:atPosition uom="m">1175.44</net:atPosition>
             <network:atPositionGeometry>
@@ -1270,7 +1104,7 @@
         </net:networkRef>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000003210020</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
@@ -1281,17 +1115,17 @@
       </ram:Structure>
 </os:featureMember>
 <os:featureMember><!-->TurnRestriction<-->
-<ram:TurnRestriction gml:id="osgb4000000021450876">
-        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000021450876</gml:identifier>
+<ram:TurnRestriction gml:id="osgb4000000000000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000000</gml:identifier>
         <net:networkRef>
           <net:LinkReference>
-            <net:element xlink:href="#osgb4000000021762189"/>
+            <net:element xlink:href="#osgb4000000000000000"/>
             <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inDirection" xlink:title="in direction"/>
           </net:LinkReference>
         </net:networkRef>
         <net:inspireId>
           <base:Identifier>
-            <base:localId>4000000021450876</base:localId>
+            <base:localId>4000000000000000</base:localId>
             <base:namespace>http://data.os.uk/</base:namespace>
           </base:Identifier>
         </net:inspireId>
