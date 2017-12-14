@@ -539,14 +539,14 @@
     <PropertyDefn>
       <Name>FerryNodes</Name>
       <ElementPath>element@xlink:href</ElementPath>
-      <Condition>@xml:Role='FerryNode'</Condition>
-      <Type>StringList</Type>
+      <Condition>@xlink:role='FerryNode'</Condition>
+      <Type>String</Type>
     </PropertyDefn>
     <PropertyDefn>
       <Name>RoadNodes</Name>
       <ElementPath>element@xlink:href</ElementPath>
-      <Condition>@xml:Role='RoadNode'</Condition>
-      <Type>StringList</Type>
+      <Condition>@xlink:role='RoadNode'</Condition>
+      <Type>String</Type>
     </PropertyDefn>
     <PropertyDefn>
       <Name>ferryTerminalName</Name>
@@ -570,7 +570,8 @@
   <GMLFeatureClass>
     <Name>Street</Name>
     <ElementPath>Street</ElementPath>
-    <GeometryType>2</GeometryType>
+    <!--MULTILINESTRING-->
+    <GeometryType>5</GeometryType>
     <SRSName>osgb:BNG</SRSName>
     <PropertyDefn>
       <Name>identifier</Name>
@@ -615,12 +616,6 @@
       <Name>namingAuthorityId</Name>
       <ElementPath>designatedName|DesignatedNameType|namingAuthority|ResponsibleAuthority|identifier</ElementPath>
       <Type>IntegerList</Type>
-    </PropertyDefn>
-    <PropertyDefn>
-      <Name>reasonForChange</Name>
-      <ElementPath>reasonForChange</ElementPath>
-      <Type>String</Type>
-      <Width>32</Width>
     </PropertyDefn>
     <PropertyDefn>
       <Name>streetType</Name>
@@ -728,6 +723,17 @@
       <Width>37</Width>
     </PropertyDefn>
     <PropertyDefn>
+      <Name>RoadLinkWhole</Name>
+      <ElementPath>networkRef|LinkReference|element@xlink:href</ElementPath>
+      <Type>String</Type>
+	  <Width>21</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>applicableDirectionWhole</Name>
+      <ElementPath>networkRef|LinkReference|applicableDirection@xlink:title</ElementPath>
+      <Type>String</Type>
+    </PropertyDefn>
+    <PropertyDefn>
       <Name>RoadLink</Name>
       <ElementPath>networkRef|PointReference|element@xlink:href</ElementPath>
       <Type>String</Type>
@@ -775,7 +781,7 @@
     </PropertyDefn>
   </GMLFeatureClass>
   <!-- TurnRestriction -->
-    <GMLFeatureClass>
+  <GMLFeatureClass>
     <Name>TurnRestriction</Name>
     <ElementPath>TurnRestriction</ElementPath>
     <GeometryType>100</GeometryType>
@@ -1036,24 +1042,42 @@
     <PropertyDefn>
       <Name>RoadLink</Name>
       <ElementPath>networkRef|PointReference|element@xlink:href</ElementPath>
-      <Type>StringList</Type>
+      <Type>String</Type>
 	  <Width>21</Width>
     </PropertyDefn>
     <PropertyDefn>
       <Name>applicableDirection</Name>
       <ElementPath>networkRef|PointReference|applicableDirection@xlink:title</ElementPath>
-      <Type>StringList</Type>
+      <Type>String</Type>
     </PropertyDefn>
     <PropertyDefn>
       <Name>atPosition</Name>
       <ElementPath>networkRef|PointReference|atPosition</ElementPath>
-      <Type>RealList</Type>
+      <Type>Real</Type>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>atPosition_uom</Name>
+      <ElementPath>networkRef|PointReference|atPosition_uom</ElementPath>
+      <Type>String</Type>
+      <Width>1</Width>
     </PropertyDefn>
     <PropertyDefn>
       <Name>localId</Name>
       <ElementPath>inspireId|Identifier|localId</ElementPath>
       <Type>Integer</Type>
       <Subtype>Integer64</Subtype>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>RoadLinks</Name>
+      <ElementPath>networkRef|LinkReference|element@xlink:href</ElementPath>
+      <Type>StringList</Type>
+	  <Width>21</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>ApplicableDirections</Name>
+      <ElementPath>networkRef|LinkReference|applicableDirection@xlink:title</ElementPath>
+      <Type>StringList</Type>
+	  <Width>21</Width>
     </PropertyDefn>
     <PropertyDefn>
       <Name>namespace</Name>
@@ -1097,6 +1121,37 @@
       <Type>String</Type>
       <Width>35</Width>
     </PropertyDefn>
+    <PropertyDefn>
+      <Name>LinkId</Name>
+      <ElementPath>networkRef|NetworkReference|element@xlink:href</ElementPath>
+      <Type>String</Type>
+      <Width>35</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>ReferenceLinkId</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|element@xlink:href</ElementPath>
+      <Type>String</Type>
+      <Width>35</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>locationDescription</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|locationDescription</ElementPath>
+      <Type>String</Type>
+      <Width>255</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>locationStart</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|locationStart|Point</ElementPath>
+      <Type>String</Type>
+      <Width>32</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>locationEnd</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|locationEnd|pos</ElementPath>
+      <Type>String</Type>
+      <Width>32</Width>
+    </PropertyDefn>
+		
     <PropertyDefn>
       <Name>localId</Name>
       <ElementPath>inspireId|Identifier|localId</ElementPath>
@@ -1189,7 +1244,7 @@
       <Width>20</Width>
     </PropertyDefn>
   </GMLFeatureClass>
-  
+
   <!-- RestrictionForVehicles -->
   <GMLFeatureClass>
     <Name>RestrictionForVehicles</Name>
@@ -1204,6 +1259,17 @@
       <Width>37</Width>
     </PropertyDefn>
     <PropertyDefn>
+      <Name>RoadLink</Name>
+      <ElementPath>networkRef|PointReference|element@xlink:href</ElementPath>
+      <Type>String</Type>
+	  <Width>21</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>applicableDirection</Name>
+      <ElementPath>networkRef|PointReference|applicableDirection@xlink:title</ElementPath>
+      <Type>String</Type>
+    </PropertyDefn>
+    <PropertyDefn>
       <Name>atPosition</Name>
       <ElementPath>networkRef|PointReference|atPosition</ElementPath>
       <Type>Real</Type>
@@ -1214,6 +1280,19 @@
       <Type>String</Type>
       <Width>1</Width>
     </PropertyDefn>
+    <PropertyDefn>
+      <Name>RoadNode</Name>
+      <ElementPath>networkRef|NodeReference|element@xlink:href</ElementPath>
+      <Type>String</Type>
+	  <Width>21</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>RoadLinks</Name>
+      <ElementPath>networkRef|NodeReference|linkReference@xlink:href</ElementPath>
+      <Type>StringList</Type>
+	  <Width>21</Width>
+    </PropertyDefn>
+	
     <PropertyDefn>
       <Name>localId</Name>
       <ElementPath>inspireId|Identifier|localId</ElementPath>
@@ -1241,7 +1320,7 @@
       <Name>measure_uom</Name>
       <ElementPath>measure_uom</ElementPath>
       <Type>String</Type>
-      <Width>1</Width>
+      <Width>2</Width>
     </PropertyDefn>
     <PropertyDefn>
       <Name>sourceOfMeasure</Name>
@@ -1269,12 +1348,14 @@
     <PropertyDefn>
       <Name>restrictionType</Name>
       <ElementPath>restrictionType:@xlink:title</ElementPath>
-      <Type>Street</Type>
+      <Type>String</Type>
+	  <!-- maximum single axle weight -->
+      <Width>32</Width>
     </PropertyDefn>
     <PropertyDefn>
       <Name>measure2</Name>
       <ElementPath>measure2</ElementPath>
-      <Type>Integer</Type>
+      <Type>Real</Type>
     </PropertyDefn>
     <PropertyDefn>
       <Name>measure2_uom</Name>
@@ -1306,6 +1387,37 @@
       <Type>String</Type>
       <Width>14</Width>
     </PropertyDefn>
+    <PropertyDefn>
+      <Name>LinkId</Name>
+      <ElementPath>networkRef|NetworkReference|element@xlink:href</ElementPath>
+      <Type>String</Type>
+      <Width>35</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>ReferenceLinkId</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|element@xlink:href</ElementPath>
+      <Type>String</Type>
+      <Width>35</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>locationDescription</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|locationDescription</ElementPath>
+      <Type>String</Type>
+      <Width>255</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>locationStart</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|locationStart|Point</ElementPath>
+      <Type>String</Type>
+      <Width>32</Width>
+    </PropertyDefn>
+    <PropertyDefn>
+      <Name>locationEnd</Name>
+      <ElementPath>networkRef|NetworkReferenceLocation|locationEnd|pos</ElementPath>
+      <Type>String</Type>
+      <Width>32</Width>
+    </PropertyDefn>
+
     <PropertyDefn>
       <Name>beginLifespanVersion</Name>
       <ElementPath>beginLifespanVersion</ElementPath>
