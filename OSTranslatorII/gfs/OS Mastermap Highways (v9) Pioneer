@@ -1,0 +1,1304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--PUBLICATION_DATE_2017-09-01-->
+<os:FeatureCollection
+    xmlns:ad="http://inspire.ec.europa.eu/schemas/ad/4.0"
+    xmlns:am="http://inspire.ec.europa.eu/schemas/am/4.0"
+    xmlns:au="http://inspire.ec.europa.eu/schemas/au/4.0"
+    xmlns:base="http://inspire.ec.europa.eu/schemas/base/3.3"
+    xmlns:base2="http://inspire.ec.europa.eu/schemas/base2/2.0"
+    xmlns:bu-base="http://inspire.ec.europa.eu/schemas/bu-base/4.0"
+    xmlns:cp="http://inspire.ec.europa.eu/schemas/cp/4.0"
+    xmlns:gco="http://www.isotc211.org/2005/gco"
+    xmlns:gmd="http://www.isotc211.org/2005/gmd"
+    xmlns:gml="http://www.opengis.net/gml/3.2"
+    xmlns:gmlexr="http://www.opengis.net/gml/3.3/exr"
+    xmlns:gmlxbt="http://www.opengis.net/gml/3.3/xbt"
+    xmlns:gn="http://inspire.ec.europa.eu/schemas/gn/4.0"
+    xmlns:gsr="http://www.isotc211.org/2005/gsr"
+    xmlns:gss="http://www.isotc211.org/2005/gss"
+    xmlns:gts="http://www.isotc211.org/2005/gts"
+    xmlns:highway="http://namespaces.os.uk/mastermap/highwayNetwork/2.0"
+    xmlns:hwtn="http://namespaces.os.uk/mastermap/highwaysWaterTransportNetwork/1.0"
+    gml:id="OS_HIGHWAYS"
+    xmlns:net="http://inspire.ec.europa.eu/schemas/net/4.0"
+    xmlns:network="http://namespaces.os.uk/mastermap/generalNetwork/2.0"
+    xmlns:os="http://namespaces.os.uk/product/1.0"
+    xmlns:ram="http://namespaces.os.uk/mastermap/routingAndAssetManagement/2.0"
+    xmlns:sc="http://www.interactive-instruments.de/ShapeChange/AppInfo"
+    xsi:schemaLocation="http://namespaces.os.uk/mastermap/highwaysWaterTransportNetwork/1.0
+    https://www.ordnancesurvey.co.uk/xml/schema/highwaysnetwork/1.0/HighwaysWaterTransportNetwork.xsd
+    http://namespaces.os.uk/mastermap/highwayNetwork/2.0 
+    https://www.ordnancesurvey.co.uk/xml/schema/highwaysnetwork/2.0/LinearHighwayNetwork.xsd
+    http://namespaces.os.uk/product/1.0
+    https://www.ordnancesurvey.co.uk/xml/schema/product/1.0/OSProduct.xsd
+    http://namespaces.os.uk/mastermap/generalNetwork/2.0 
+    https://www.ordnancesurvey.co.uk/xml/schema/network/2.0/generalNetwork.xsd
+    http://namespaces.os.uk/mastermap/routingAndAssetManagement/2.0 
+    https://www.ordnancesurvey.co.uk/xml/schema/highwaysnetwork/2.0/RoutingAndAssetManagement.xsd"	
+    xmlns:stat="urn:x-inspire:specification:gmlas:StatisticalUnits:0.0"
+    xmlns:su-core="http://inspire.ec.europa.eu/schemas/su-core/4.0"
+    xmlns:tn="http://inspire.ec.europa.eu/schemas/tn/4.0"
+    xmlns:tn-ro="http://inspire.ec.europa.eu/schemas/tn-ro/4.0"
+    xmlns:tn-w="http://inspire.ec.europa.eu/schemas/tn-w/4.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<os:metadata xlink:href="http://www.os.uk/xml/products/Highways.xml"/>
+
+<os:featureMember><!-->Road<-->
+<highway:Road gml:id="osgb4000000003210673">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210673</gml:identifier>
+        <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003210673</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:link xlink:href="#osgb4000000003210462"/>
+        <net:link xlink:href="#osgb4000000003210472"/>
+        <net:link xlink:href="#osgb4000000003210538"/>
+        <net:link xlink:href="#osgb4000000003210607"/>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <highway:designatedName>
+          <highway:DesignatedNameType>
+            <highway:name>Beach Road</highway:name>
+            <highway:namingAuthority>
+              <highway:ResponsibleAuthority>
+                <highway:identifier>7655</highway:identifier>
+                <highway:authorityName>Ordnance Survey</highway:authorityName>
+              </highway:ResponsibleAuthority>
+            </highway:namingAuthority>
+          </highway:DesignatedNameType>
+        </highway:designatedName>
+        <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</highway:reasonForChange>
+      </highway:Road>
+</os:featureMember>
+<os:featureMember><!-->RoadLink<-->
+<highway:RoadLink gml:id="osgb----------------">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210383</gml:identifier>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000000000000</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:centrelineGeometry>
+          <gml:LineString gml:id="LOCAL_ID_1_4D3CCBC28F0B4243E0530B8EA00AC013" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:posList srsDimension="3" count="45">460885.373 1200715.422 44.700 460888.793 1200736.672 45.700 460899.000 1200807.000 48.600 460901.383 1200824.147 48.800 460904.000 1200841.000 48.900 460910.116 1200879.747 49.500 460913.609 1200904.345 49.900 460915.501 1200927.924 48.800 460918.412 1200959.508 47.800 460922.197 1201004.191 46.600 460922.197 1201037.959 45.700 460920.013 1201056.007 45.200 460917.248 1201074.346 44.400 460912.008 1201088.028 43.700 460905.022 1201105.057 42.500 460894.709 1201130.502 41.000 460891.631 1201138.097 40.300 460888.866 1201146.248 39.700 460888.224 1201150.698 39.500 460886.828 1201160.366 39.000 460886.828 1201170.991 38.700 460886.974 1201177.686 38.400 460888.138 1201195.734 37.900 460890.758 1201208.543 38.000 460892.796 1201218.731 37.900 460895.125 1201225.135 37.800 460899.200 1201233.723 37.800 460912.008 1201253.808 38.000 460939.808 1201298.347 38.300 460969.791 1201346.232 38.600 460984.492 1201370.976 39.300 461008.216 1201409.983 40.400 461041.838 1201463.836 41.700 461064.544 1201499.569 43.000 461069.493 1201505.099 43.200 461074.441 1201507.137 43.300 461081.428 1201511.358 43.400 461094.527 1201519.873 43.600 461105.298 1201525.695 43.800 461113.740 1201529.042 43.800 461127.130 1201531.517 43.900 461131.933 1201532.099 43.900 461185.787 1201533.991 43.600 461248.518 1201535.155 42.000 461276.810 1201535.854 41.300</gml:posList>
+          </gml:LineString>
+        </net:centrelineGeometry>
+        <net:fictitious>false</net:fictitious>
+        <net:endNode xlink:href="#osgb5000005110061922"/>
+        <net:startNode xlink:href="#osgb4000000003210112"/>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry And Attributes</highway:reasonForChange>
+        <highway:roadClassification codeSpace="http://www.os.uk/xml/codelists/RoadClassificationValue.xml">Unknown</highway:roadClassification>
+        <highway:routeHierarchy codeSpace="http://www.os.uk/xml/codelists/RoadFunctionValue.xml">Minor Road</highway:routeHierarchy>
+        <highway:formOfWay codeSpace="http://www.os.uk/xml/codelists/FormOfWayTypeValue.xml">Single Carriageway</highway:formOfWay>
+        <highway:trunkRoad>false</highway:trunkRoad>
+        <highway:primaryRoute>false</highway:primaryRoute>
+        <highway:operationalState codeSpace="http://www.os.uk/xml/codelists/highways/OperationalStateValue.xml">Open</highway:operationalState>
+        <highway:provenance codeSpace="http://www.os.uk/xml/codelists/highways/ProvenanceSourceValue.xml">OS Rural And OS Height</highway:provenance>
+        <highway:directionality xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
+        <highway:length uom="m">1062.86</highway:length>
+        <highway:matchStatus codeSpace="http://www.os.uk/xml/codelists/highways/MatchStatusValue.xml">Not Matched Awaiting Review</highway:matchStatus>
+        <highway:startGradeSeparation>0</highway:startGradeSeparation>
+        <highway:endGradeSeparation>0</highway:endGradeSeparation>
+        <highway:elevationGain>
+          <highway:ElevationGainType>
+            <highway:inDirection uom="m">11.4</highway:inDirection>
+            <highway:inOppositeDirection uom="m">14.8</highway:inOppositeDirection>
+          </highway:ElevationGainType>
+        </highway:elevationGain>
+        <highway:relatedRoadArea xlink:href="#osgb---------------7"/>
+        <highway:relatedRoadArea xlink:href="#osgb---------------8"/>
+        <highway:relatedRoadArea xlink:href="#osgb---------------2"/>
+      </highway:RoadLink>
+</os:featureMember>
+<os:featureMember><!-->RestrictionForVehicles<-->
+<ram:RestrictionForVehicles gml:id="osgb4000000000000006">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000006</gml:identifier>
+        <net:networkRef>
+          <network:PointReference>
+            <net:element xlink:href="#osgb4000000026232819"/>
+            <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
+            <net:atPosition uom="m">7.26</net:atPosition>
+            <network:atPositionGeometry>
+              <gml:Point gml:id="LOCAL_ID_1_4D3BE74216331F4FE0530B8EA00A4F07" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>408535.493 90738.126</gml:pos>
+              </gml:Point>
+            </network:atPositionGeometry>
+          </network:PointReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000000000006</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <tn:measure uom="m">2.1</tn:measure>
+        <tn:restrictionType xlink:title="maximum height" xlink:href="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumHeight"/>
+        <ram:sourceOfMeasure>Signed</ram:sourceOfMeasure>
+        <ram:structure codeSpace="http://www.os.uk/xml/codelists/highways/StructureTypeValue.xml">Barrier</ram:structure>
+        <ram:trafficSign>Vehicles Exceeding Height 2.1m Prohibited</ram:trafficSign>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:RestrictionForVehicles>
+</os:featureMember>
+<os:featureMember><!-->RoadNode<-->
+<highway:RoadNode gml:id="osgb4000000003210071">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210071</gml:identifier>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003210071</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:geometry>
+          <gml:Point gml:id="LOCAL_ID_1_4D3C47AD99862C9CE0530B8EA00A4FED" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:pos>454224.365 1203078.804 22.200</gml:pos>
+          </gml:Point>
+        </net:geometry>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <tn-ro:formOfRoadNode xlink:title="road end" xlink:href="http://inspire.ec.europa.eu/codelist/FormOfRoadNodeValue/roadEnd"/>
+        <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</highway:reasonForChange>
+        <highway:relatedRoadArea xlink:href="#osgb1000000042007835"/>
+      </highway:RoadNode>
+</os:featureMember>
+<os:featureMember><!-->FerryTerminal<-->
+<hwtn:FerryTerminal gml:id="osgb----------------'>">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003213040</gml:identifier>
+        <net:beginLifespanVersion>2017-01-20T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003213040</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:type xlink:href="http://inspire.ec.europa.eu/codelist/ConnectionTypeValue/intermodal" xlink:title="intermodal"/>
+        <net:element xlink:href="#osgb---------------9" xlink:role="FerryNode"/>
+        <net:element xlink:href="#osgb---------------5" xlink:role="RoadNode"/>
+        <hwtn:ferryTerminalName>Foula</hwtn:ferryTerminalName>
+        <hwtn:ferryTerminalCode>FOA</hwtn:ferryTerminalCode>
+        <hwtn:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Attributes</hwtn:reasonForChange>
+      </hwtn:FerryTerminal>
+</os:featureMember>
+<os:featureMember><!-->FerryNode<-->
+<hwtn:FerryNode gml:id="osgb----------------">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003213039</gml:identifier>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000000000009</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:geometry>
+          <gml:Point gml:id="LOCAL_ID_1_5279A151A9172478E0530B8EA00A178E" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:pos>397417.416 1138840.804 4.900</gml:pos>
+          </gml:Point>
+        </net:geometry>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <tn-w:formOfWaterwayNode xlink:title="water terminal" xlink:href="http://inspire.ec.europa.eu/codelist/FormOfWaterwayNodeValue/waterTerminal"/>
+        <hwtn:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</hwtn:reasonForChange>
+      </hwtn:FerryNode>
+</os:featureMember>
+<os:featureMember><!-->FerryLink<-->
+<hwtn:FerryLink gml:id="osgb---------------7">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210687</gml:identifier>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003210687</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:centrelineGeometry>
+          <gml:LineString gml:id="LOCAL_ID_1_4D3C08393D221F4DE0530B8EA00A595C" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:posList srsDimension="3" count="2">454939.000 1199277.000 2.200 456595.500 1200440.425 3.100</gml:posList>
+          </gml:LineString>
+        </net:centrelineGeometry>
+        <net:fictitious>true</net:fictitious>
+        <net:endNode xlink:href="#osgb---------------1"/>
+        <net:startNode xlink:href="#osgb---------------1"/>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <hwtn:vehicularFerry>true</hwtn:vehicularFerry>
+        <hwtn:routeOperator>http://www.shetland.gov.uk/ferries</hwtn:routeOperator>
+        <hwtn:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</hwtn:reasonForChange>
+      </hwtn:FerryLink>
+</os:featureMember>
+<os:featureMember><!-->Street<-->
+<highway:Street gml:id="usrn10300114">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/10300114</gml:identifier>
+        <net:beginLifespanVersion>2016-10-19T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>10300114</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:link xlink:href="#osgb4000000000000001"/>
+        <net:link xlink:href="#osgb4000000000000002"/>
+        <net:link xlink:href="#osgb4000000000000003"/>
+        <tn:validFrom>2000-11-30T00:00:00.000</tn:validFrom>
+        <highway:designatedName>
+          <highway:DesignatedNameType>
+            <highway:name>ABBOTS RISE</highway:name>
+            <highway:namingAuthority>
+              <highway:ResponsibleAuthority>
+                <highway:identifier>1910</highway:identifier>
+                <highway:authorityName>Dacorum</highway:authorityName>
+              </highway:ResponsibleAuthority>
+            </highway:namingAuthority>
+          </highway:DesignatedNameType>
+        </highway:designatedName>
+        <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry And Attributes</highway:reasonForChange>
+        <highway:streetType codeSpace="http://www.os.uk/xml/codelists/highways/StreetTypeValue.xml">Designated Street Name</highway:streetType>
+        <highway:operationalState>
+          <highway:OperationalStateType>
+            <highway:state codeSpace="http://www.os.uk/xml/codelists/highways/OperationalStateValue.xml">Open</highway:state>
+            <highway:validTime>
+              <gml:TimePeriod gml:id="LOCAL_ID_3_4D3BFBBEB8AA1F30E0530B8EA00AA725">
+                <gml:beginPosition>2000-11-30T00:00:00.000</gml:beginPosition>
+                <gml:endPosition indeterminatePosition="unknown"/>
+              </gml:TimePeriod>
+            </highway:validTime>
+          </highway:OperationalStateType>
+        </highway:operationalState>
+        <highway:town>KINGS LANGLEY</highway:town>
+        <highway:administrativeArea>HERTFORDSHIRE</highway:administrativeArea>
+        <highway:responsibleAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>1900</highway:identifier>
+            <highway:authorityName>Hertfordshire</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </highway:responsibleAuthority>
+        <highway:geometryProvenance codeSpace="http://www.os.uk/xml/codelists/highways/ProvenanceSourceValue.xml">Ordnance Survey</highway:geometryProvenance>
+        <highway:geometry>
+          <gml:MultiCurve gml:id="LOCAL_ID_1_4D3BFBBEB8AB1F30E0530B8EA00AA725" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2820938_47902DF4D3B94236BF9788BCE4321499">
+                <gml:posList srsDimension="2" count="30">506854.735 203913.964 506841.000 203964.000 506838.000 203976.000 506833.000 203985.000 506830.000 203991.000 506826.000 203996.000 506822.000 204000.000 506809.000 204011.000 506802.000 204018.000 506797.000 204026.000 506791.874 204033.774 506791.000 204035.000 506760.000 204100.000 506759.000 204107.000 506759.000 204111.000 506760.000 204115.000 506761.000 204120.000 506778.000 204148.000 506786.000 204159.000 506800.000 204173.000 506811.000 204180.000 506829.000 204190.000 506846.000 204197.000 506851.000 204196.000 506855.000 204194.000 506866.000 204182.000 506869.000 204180.000 506871.000 204180.000 506875.000 204180.000 506890.000 204190.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+          </gml:MultiCurve>
+        </highway:geometry>
+        <highway:gssCode xlink:href="#E07000096" xlink:role="Lower Tier Local Authority"/>
+        <highway:gssCode xlink:href="#E10000015" xlink:role="Upper Tier Local Authority"/>
+      </highway:Street>
+</os:featureMember>
+<os:featureMember><!-->Street<-->
+<highway:Street gml:id="usrn16801804">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/16801804</gml:identifier>
+        <net:beginLifespanVersion>2017-03-24T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>16801804</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:link xlink:href="#osgb4000000007822530"/>
+        <net:link xlink:href="#osgb4000000007822537"/>
+        <net:link xlink:href="#osgb4000000007822538"/>
+        <net:link xlink:href="#osgb4000000007822549"/>
+        <net:link xlink:href="#osgb4000000007822550"/>
+        <net:link xlink:href="#osgb4000000007822551"/>
+        <net:link xlink:href="#osgb4000000007822552"/>
+        <net:link xlink:href="#osgb4000000007822553"/>
+        <net:link xlink:href="#osgb4000000007822554"/>
+        <net:link xlink:href="#osgb4000000007822558"/>
+        <net:link xlink:href="#osgb4000000007822559"/>
+        <net:link xlink:href="#osgb4000000007822560"/>
+        <net:link xlink:href="#osgb4000000007822566"/>
+        <net:link xlink:href="#osgb4000000007822567"/>
+        <net:link xlink:href="#osgb4000000007822568"/>
+        <net:link xlink:href="#osgb4000000007822569"/>
+        <net:link xlink:href="#osgb4000000007822577"/>
+        <net:link xlink:href="#osgb4000000007822578"/>
+        <net:link xlink:href="#osgb4000000007822582"/>
+        <net:link xlink:href="#osgb4000000007822583"/>
+        <net:link xlink:href="#osgb4000000007822584"/>
+        <net:link xlink:href="#osgb4000000007823269"/>
+        <net:link xlink:href="#osgb4000000007823270"/>
+        <net:link xlink:href="#osgb4000000007936682"/>
+        <net:link xlink:href="#osgb4000000008011360"/>
+        <net:link xlink:href="#osgb4000000008011365"/>
+        <net:link xlink:href="#osgb4000000008011366"/>
+        <net:link xlink:href="#osgb4000000008011367"/>
+        <net:link xlink:href="#osgb4000000008011372"/>
+        <net:link xlink:href="#osgb4000000008011377"/>
+        <net:link xlink:href="#osgb4000000008011381"/>
+        <net:link xlink:href="#osgb4000000008011392"/>
+        <net:link xlink:href="#osgb4000000008011393"/>
+        <net:link xlink:href="#osgb4000000008055377"/>
+        <net:link xlink:href="#osgb5000005124241293"/>
+        <net:link xlink:href="#osgb5000005124241294"/>
+        <tn:validFrom>2013-09-02T00:00:00.000</tn:validFrom>
+        <tn-ro:localRoadCode>C150</tn-ro:localRoadCode>
+        <highway:roadClassification codeSpace="http://www.os.uk/xml/codelists/RoadClassificationValue.xml">Classified Unnumbered</highway:roadClassification>
+        <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry And Attributes</highway:reasonForChange>
+        <highway:streetType codeSpace="http://www.os.uk/xml/codelists/highways/StreetTypeValue.xml">Numbered Street</highway:streetType>
+        <highway:operationalState>
+          <highway:OperationalStateType>
+            <highway:state codeSpace="http://www.os.uk/xml/codelists/highways/OperationalStateValue.xml">Open</highway:state>
+            <highway:validTime>
+              <gml:TimePeriod gml:id="LOCAL_ID_3_4D3BFBA8454D1F30E0530B8EA00AA725">
+                <gml:beginPosition>2016-06-17T00:00:00.000</gml:beginPosition>
+                <gml:endPosition indeterminatePosition="unknown"/>
+              </gml:TimePeriod>
+            </highway:validTime>
+          </highway:OperationalStateType>
+        </highway:operationalState>
+        <highway:town>HARTLEPOOL</highway:town>
+        <highway:administrativeArea>HARTLEPOOL</highway:administrativeArea>
+        <highway:responsibleAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>0724</highway:identifier>
+            <highway:authorityName>Hartlepool</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </highway:responsibleAuthority>
+        <highway:geometryProvenance codeSpace="http://www.os.uk/xml/codelists/highways/ProvenanceSourceValue.xml">Ordnance Survey</highway:geometryProvenance>
+        <highway:geometry>
+          <gml:MultiCurve gml:id="LOCAL_ID_1_4D3BFBA8454E1F30E0530B8EA00AA725" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117833_0AD1DB2F7FA8466CA10B1E1508118D85">
+                <gml:posList srsDimension="2" count="5">448747.330 533465.324 448745.600 533474.200 448746.200 533483.000 448749.200 533491.000 448762.400 533504.400</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117834_B3857B09B1394BAD9A97921215C3D531">
+                <gml:posList srsDimension="2" count="6">448777.246 533511.140 448780.600 533505.400 448787.400 533497.000 448789.325 533495.099 448796.651 533487.860 448800.756 533483.805</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117835_0E2B0E8233E149BD80B54D180F01AE5A">
+                <gml:posList srsDimension="2" count="2">448832.500 533544.500 448826.000 533551.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117836_81304AEAD01041C68651543F8EDFC804">
+                <gml:posList srsDimension="2" count="5">448693.000 533758.000 448700.000 533740.000 448701.000 533738.000 448709.000 533731.000 448712.658 533720.940</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117837_6E11C92EC6E24915ABBFE5D412AC6CDE">
+                <gml:posList srsDimension="2" count="2">448855.000 533522.000 448848.900 533528.100</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117838_F69E0C4FB2F248D0ABD1E3EEA0297A26">
+                <gml:posList srsDimension="2" count="8">448855.000 533522.000 448853.000 533520.000 448841.000 533511.000 448830.045 533503.622 448824.211 533500.631 448816.000 533496.000 448804.450 533486.760 448800.756 533483.805</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117839_FC7F2F5613294DEEA5E6A185610ECCE1">
+                <gml:posList srsDimension="2" count="2">448872.000 533539.000 448855.000 533522.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117840_B98DD2EA265748B3AB0FBFB152B0E4FC">
+                <gml:posList srsDimension="2" count="4">448848.900 533528.100 448849.400 533532.400 448837.800 533544.400 448832.500 533544.500</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117841_6ED552F67FFE4E02A9088654D42156F2">
+                <gml:posList srsDimension="2" count="4">448848.900 533528.100 448844.200 533528.000 448833.000 533539.000 448832.500 533544.500</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117842_2BFA2CDE4E884845ADE2F0A15790720D">
+                <gml:posList srsDimension="2" count="4">449736.000 534165.000 449739.000 534170.000 449740.000 534175.000 449743.000 534185.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117843_6362FEB8558545D9B2D758E44664E6C4">
+                <gml:posList srsDimension="2" count="3">449736.000 534165.000 449747.000 534169.000 449758.000 534171.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117844_26A1AA2F819D4C60B5248B48D7D2A278">
+                <gml:posList srsDimension="2" count="71">449736.000 534165.000 449722.000 534150.000 449717.000 534146.000 449712.632 534143.816 449709.000 534142.000 449704.000 534141.000 449645.000 534136.000 449605.670 534132.697 449514.000 534125.000 449500.000 534124.000 449492.496 534123.318 449465.089 534120.826 449456.000 534120.000 449411.000 534117.000 449371.744 534113.645 449339.034 534110.849 449294.000 534107.000 449261.496 534104.245 449235.000 534102.000 449225.689 534100.040 449216.000 534098.000 449194.000 534091.000 449192.000 534090.000 449164.318 534081.003 449152.000 534077.000 449141.019 534073.470 449120.045 534066.729 449096.000 534059.000 449064.043 534048.572 449025.352 534035.946 449004.464 534029.130 449001.000 534028.000 448990.000 534022.000 448983.000 534018.000 448970.630 534006.377 448963.843 534000.000 448960.879 533997.216 448893.000 533936.000 448871.859 533916.853 448850.475 533897.487 448840.000 533888.000 448831.000 533879.000 448802.000 533852.000 448787.741 533838.811 448770.000 533822.400 448762.000 533815.000 448758.000 533811.000 448755.000 533805.000 448753.000 533799.000 448753.000 533792.000 448753.000 533788.000 448754.714 533770.000 448755.000 533767.000 448755.760 533762.250 448759.952 533736.050 448763.000 533717.000 448767.000 533704.000 448768.694 533697.731 448770.000 533692.900 448777.000 533667.000 448778.279 533663.589 448780.000 533659.000 448782.000 533652.000 448783.815 533647.875 448793.000 533627.000 448799.000 533615.000 448808.000 533603.000 448816.000 533593.000 448843.000 533569.000 448837.000 533563.000 448826.000 533551.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117845_7BEE1A4FF08448F692B26A012570EDF5">
+                <gml:posList srsDimension="2" count="2">448762.400 533504.400 448777.246 533511.140</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117846_12E780BDEA9F4EA2A3A9D29C26569AE5">
+                <gml:posList srsDimension="2" count="8">448762.400 533504.400 448744.554 533495.316 448732.400 533490.600 448721.541 533490.416 448730.904 533497.066 448731.705 533497.308 448741.929 533501.091 448762.400 533504.400</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117847_65258AF2852344A3971072FF1534878E">
+                <gml:posList srsDimension="2" count="5">448826.000 533551.000 448814.800 533534.800 448811.370 533531.954 448797.200 533520.200 448777.246 533511.140</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_1117848_C0D19A7738284E2499C7383AB5694733">
+                <gml:posList srsDimension="2" count="29">448800.756 533483.805 448789.380 533473.212 448789.018 533473.117 448788.653 533473.038 448788.286 533472.976 448787.916 533472.929 448787.544 533472.898 448787.172 533472.883 448786.798 533472.883 448786.426 533472.898 448786.053 533472.928 448785.682 533472.973 448785.313 533473.032 448784.947 533473.106 448784.583 533473.194 448784.223 533473.296 448783.868 533473.412 448783.517 533473.542 448783.171 533473.685 448782.832 533473.842 448782.499 533474.011 448782.173 533474.194 448781.855 533474.389 448781.545 533474.597 448781.244 533474.818 448780.953 533475.050 448780.672 533475.295 448780.401 533475.551 448780.142 533475.819</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+          </gml:MultiCurve>
+        </highway:geometry>
+        <highway:gssCode xlink:href="#E06000001" xlink:role="Unitary Local Authority"/>
+      </highway:Street>
+</os:featureMember>
+<os:featureMember><!-->Street<-->
+<highway:Street gml:id="usrn16801830">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/16801830</gml:identifier>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>16801830</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:inNetwork xlink:href="#OSHighwayNetwork"/>
+        <net:link xlink:href="#osgb4000000007683554"/>
+        <net:link xlink:href="#osgb4000000007685585"/>
+        <net:link xlink:href="#osgb4000000007685586"/>
+        <net:link xlink:href="#osgb4000000007685587"/>
+        <net:link xlink:href="#osgb4000000007685588"/>
+        <net:link xlink:href="#osgb4000000007685591"/>
+        <net:link xlink:href="#osgb4000000007685592"/>
+        <net:link xlink:href="#osgb4000000007685594"/>
+        <net:link xlink:href="#osgb4000000007685595"/>
+        <net:link xlink:href="#osgb4000000007685597"/>
+        <net:link xlink:href="#osgb4000000007685598"/>
+        <net:link xlink:href="#osgb4000000007685601"/>
+        <net:link xlink:href="#osgb4000000007685602"/>
+        <net:link xlink:href="#osgb4000000007685606"/>
+        <net:link xlink:href="#osgb4000000007685607"/>
+        <net:link xlink:href="#osgb4000000007685608"/>
+        <net:link xlink:href="#osgb4000000007685609"/>
+        <net:link xlink:href="#osgb4000000007685610"/>
+        <net:link xlink:href="#osgb4000000007685611"/>
+        <net:link xlink:href="#osgb4000000007685665"/>
+        <net:link xlink:href="#osgb4000000007685722"/>
+        <net:link xlink:href="#osgb4000000007814760"/>
+        <net:link xlink:href="#osgb4000000007814761"/>
+        <net:link xlink:href="#osgb4000000007814762"/>
+        <net:link xlink:href="#osgb4000000007814763"/>
+        <net:link xlink:href="#osgb4000000007814764"/>
+        <net:link xlink:href="#osgb4000000007814765"/>
+        <net:link xlink:href="#osgb4000000007814766"/>
+        <net:link xlink:href="#osgb4000000007814767"/>
+        <net:link xlink:href="#osgb4000000007814768"/>
+        <net:link xlink:href="#osgb4000000007814769"/>
+        <net:link xlink:href="#osgb4000000007814771"/>
+        <net:link xlink:href="#osgb4000000007814772"/>
+        <net:link xlink:href="#osgb4000000007814773"/>
+        <net:link xlink:href="#osgb4000000007814774"/>
+        <net:link xlink:href="#osgb4000000007814775"/>
+        <net:link xlink:href="#osgb4000000007814776"/>
+        <net:link xlink:href="#osgb4000000007814777"/>
+        <net:link xlink:href="#osgb4000000007814778"/>
+        <net:link xlink:href="#osgb4000000007814779"/>
+        <net:link xlink:href="#osgb4000000007814780"/>
+        <net:link xlink:href="#osgb4000000007814781"/>
+        <net:link xlink:href="#osgb4000000007814786"/>
+        <net:link xlink:href="#osgb4000000007814835"/>
+        <net:link xlink:href="#osgb4000000007814847"/>
+        <net:link xlink:href="#osgb4000000007814871"/>
+        <net:link xlink:href="#osgb4000000007815313"/>
+        <net:link xlink:href="#osgb4000000007815321"/>
+        <net:link xlink:href="#osgb4000000007815322"/>
+        <net:link xlink:href="#osgb4000000007815323"/>
+        <net:link xlink:href="#osgb4000000007815324"/>
+        <net:link xlink:href="#osgb4000000007815325"/>
+        <net:link xlink:href="#osgb4000000007815326"/>
+        <net:link xlink:href="#osgb4000000007815335"/>
+        <net:link xlink:href="#osgb4000000007815336"/>
+        <net:link xlink:href="#osgb4000000007815337"/>
+        <net:link xlink:href="#osgb4000000007815356"/>
+        <net:link xlink:href="#osgb4000000007815360"/>
+        <net:link xlink:href="#osgb4000000007815361"/>
+        <net:link xlink:href="#osgb4000000007815363"/>
+        <net:link xlink:href="#osgb4000000007815364"/>
+        <net:link xlink:href="#osgb4000000007815366"/>
+        <net:link xlink:href="#osgb4000000007816585"/>
+        <net:link xlink:href="#osgb4000000007816586"/>
+        <net:link xlink:href="#osgb4000000007816588"/>
+        <net:link xlink:href="#osgb4000000007816589"/>
+        <net:link xlink:href="#osgb4000000007816590"/>
+        <net:link xlink:href="#osgb4000000007816591"/>
+        <net:link xlink:href="#osgb4000000007816592"/>
+        <net:link xlink:href="#osgb4000000007816593"/>
+        <net:link xlink:href="#osgb4000000007816595"/>
+        <net:link xlink:href="#osgb4000000007816598"/>
+        <net:link xlink:href="#osgb4000000007816599"/>
+        <net:link xlink:href="#osgb4000000007816601"/>
+        <net:link xlink:href="#osgb4000000007816604"/>
+        <net:link xlink:href="#osgb4000000007816605"/>
+        <net:link xlink:href="#osgb4000000007816609"/>
+        <net:link xlink:href="#osgb4000000007816613"/>
+        <net:link xlink:href="#osgb4000000007816616"/>
+        <net:link xlink:href="#osgb4000000007816621"/>
+        <net:link xlink:href="#osgb4000000007816623"/>
+        <net:link xlink:href="#osgb4000000007816628"/>
+        <net:link xlink:href="#osgb4000000007816629"/>
+        <net:link xlink:href="#osgb4000000007816630"/>
+        <net:link xlink:href="#osgb4000000007816631"/>
+        <net:link xlink:href="#osgb4000000007816632"/>
+        <net:link xlink:href="#osgb4000000007816633"/>
+        <net:link xlink:href="#osgb4000000007816634"/>
+        <net:link xlink:href="#osgb4000000007816635"/>
+        <net:link xlink:href="#osgb4000000007816636"/>
+        <net:link xlink:href="#osgb4000000007816637"/>
+        <net:link xlink:href="#osgb4000000007816638"/>
+        <net:link xlink:href="#osgb4000000007816639"/>
+        <net:link xlink:href="#osgb4000000007816647"/>
+        <net:link xlink:href="#osgb4000000007816653"/>
+        <net:link xlink:href="#osgb4000000007816660"/>
+        <net:link xlink:href="#osgb4000000007816661"/>
+        <net:link xlink:href="#osgb4000000007816664"/>
+        <net:link xlink:href="#osgb4000000007816677"/>
+        <net:link xlink:href="#osgb4000000007816678"/>
+        <net:link xlink:href="#osgb4000000007816679"/>
+        <net:link xlink:href="#osgb4000000007816684"/>
+        <net:link xlink:href="#osgb4000000007816685"/>
+        <net:link xlink:href="#osgb4000000007816686"/>
+        <net:link xlink:href="#osgb4000000007816698"/>
+        <net:link xlink:href="#osgb4000000007867036"/>
+        <net:link xlink:href="#osgb4000000007983390"/>
+        <net:link xlink:href="#osgb4000000007988881"/>
+        <net:link xlink:href="#osgb4000000007988882"/>
+        <net:link xlink:href="#osgb4000000007990542"/>
+        <net:link xlink:href="#osgb4000000007990544"/>
+        <net:link xlink:href="#osgb4000000007990552"/>
+        <net:link xlink:href="#osgb4000000008004115"/>
+        <net:link xlink:href="#osgb4000000008012719"/>
+        <net:link xlink:href="#osgb4000000008012720"/>
+        <net:link xlink:href="#osgb4000000008037163"/>
+        <net:link xlink:href="#osgb4000000008055981"/>
+        <net:link xlink:href="#osgb4000000008068300"/>
+        <net:link xlink:href="#osgb4000000008069791"/>
+        <net:link xlink:href="#osgb5000005106285990"/>
+        <net:link xlink:href="#osgb5000005114767729"/>
+        <net:link xlink:href="#osgb5000005119915246"/>
+        <net:link xlink:href="#osgb5000005122878624"/>
+        <net:link xlink:href="#osgb5000005132892592"/>
+        <net:link xlink:href="#osgb5000005132892594"/>
+        <net:link xlink:href="#osgb5000005132892598"/>
+        <net:link xlink:href="#osgb5000005132892599"/>
+        <net:link xlink:href="#osgb5000005132892600"/>
+        <net:link xlink:href="#osgb5000005132892601"/>
+        <net:link xlink:href="#osgb5000005132892611"/>
+        <net:link xlink:href="#osgb5000005132892620"/>
+        <net:link xlink:href="#osgb5000005132892632"/>
+        <net:link xlink:href="#osgb5000005132892634"/>
+        <net:link xlink:href="#osgb5000005132892636"/>
+        <net:link xlink:href="#osgb5000005132892651"/>
+        <net:link xlink:href="#osgb5000005132892652"/>
+        <net:link xlink:href="#osgb5000005132892663"/>
+        <net:link xlink:href="#osgb5000005132892674"/>
+        <net:link xlink:href="#osgb5000005132892683"/>
+        <net:link xlink:href="#osgb5000005132892724"/>
+        <net:link xlink:href="#osgb5000005132892743"/>
+        <net:link xlink:href="#osgb5000005132948517"/>
+        <tn:validFrom>2013-09-02T00:00:00.000</tn:validFrom>
+        <tn-ro:nationalRoadCode>A689</tn-ro:nationalRoadCode>
+        <highway:roadClassification codeSpace="http://www.os.uk/xml/codelists/RoadClassificationValue.xml">A Road</highway:roadClassification>
+        <highway:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry And Attributes</highway:reasonForChange>
+        <highway:streetType codeSpace="http://www.os.uk/xml/codelists/highways/StreetTypeValue.xml">Numbered Street</highway:streetType>
+        <highway:operationalState>
+          <highway:OperationalStateType>
+            <highway:state codeSpace="http://www.os.uk/xml/codelists/highways/OperationalStateValue.xml">Open</highway:state>
+            <highway:validTime>
+              <gml:TimePeriod gml:id="LOCAL_ID_3_4D3BFBB9DF5A1F30E0530B8EA00AA725">
+                <gml:beginPosition>2016-06-17T00:00:00.000</gml:beginPosition>
+                <gml:endPosition indeterminatePosition="unknown"/>
+              </gml:TimePeriod>
+            </highway:validTime>
+          </highway:OperationalStateType>
+        </highway:operationalState>
+        <highway:town>HARTLEPOOL</highway:town>
+        <highway:administrativeArea>HARTLEPOOL</highway:administrativeArea>
+        <highway:responsibleAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>0724</highway:identifier>
+            <highway:authorityName>Hartlepool</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </highway:responsibleAuthority>
+        <highway:geometryProvenance codeSpace="http://www.os.uk/xml/codelists/highways/ProvenanceSourceValue.xml">Ordnance Survey</highway:geometryProvenance>
+        <highway:geometry>
+          <gml:MultiCurve gml:id="LOCAL_ID_1_4D3BFBB9DF5B1F30E0530B8EA00AA725" srsName="urn:ogc:def:crs:EPSG::27700">
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447047_199BE022410E42D69D08E986C4EFB6B3">
+                <gml:posList srsDimension="2" count="9">450391.000 530182.000 450393.000 530187.000 450395.405 530193.815 450399.000 530204.000 450400.004 530205.506 450407.000 530216.000 450417.000 530230.000 450420.773 530233.458 450429.000 530241.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447048_AF368B534B5B4ACBB1DC62526560751D">
+                <gml:posList srsDimension="2" count="41">450957.000 532155.000 450957.625 532174.990 450958.000 532187.000 450959.000 532200.000 450959.000 532213.209 450959.000 532214.000 450958.262 532233.195 450958.000 532240.000 450958.000 532255.000 450956.000 532283.000 450948.872 532356.656 450947.000 532376.000 450943.150 532423.159 450943.000 532425.000 450943.000 532428.143 450943.000 532440.770 450943.000 532454.000 450943.000 532473.489 450943.000 532500.000 450943.000 532501.000 450943.000 532521.000 450942.000 532530.000 450940.752 532534.576 450939.000 532541.000 450936.000 532554.000 450933.180 532568.949 450932.000 532577.000 450935.000 532600.000 450941.000 532623.000 450955.000 532648.000 450965.683 532665.079 450969.475 532671.213 450974.000 532678.000 450987.121 532691.121 451000.000 532704.000 451067.000 532770.000 451080.000 532784.000 451087.000 532795.000 451091.000 532802.000 451096.000 532815.000 451097.000 532824.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447049_30743532D6F74766A6FCA1543DAE7C52">
+                <gml:posList srsDimension="2" count="10">441903.000 527558.000 441904.000 527554.000 441903.000 527548.000 441902.000 527542.000 441900.000 527537.000 441896.000 527533.000 441892.000 527529.000 441887.000 527526.000 441881.000 527524.000 441876.000 527523.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447050_A4C932AC78694F6F993EF828B349D9C3">
+                <gml:posList srsDimension="2" count="10">441903.000 527558.000 441902.000 527560.000 441901.000 527565.000 441898.000 527570.000 441894.000 527574.000 441889.000 527577.000 441884.000 527579.000 441879.000 527581.000 441876.000 527581.000 441872.000 527581.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447051_3342D130419341DC9771BA993896CA48">
+                <gml:posList srsDimension="2" count="13">450937.000 531856.000 450934.000 531862.000 450933.000 531865.000 450933.000 531871.000 450940.318 531930.000 450949.000 532000.000 450952.000 532015.000 450954.770 532031.158 450958.000 532050.000 450962.000 532080.000 450963.000 532098.000 450964.930 532134.029 450966.000 532154.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447052_FFF06109F9724F3BA66E56F2A8BD1815">
+                <gml:posList srsDimension="2" count="50">441876.000 527523.000 441882.000 527521.000 441889.000 527519.000 441902.000 527514.000 441928.000 527495.000 441930.000 527493.333 441946.000 527480.000 441960.000 527470.000 441975.000 527460.000 442000.000 527444.000 442009.000 527439.622 442037.000 527426.000 442091.000 527400.000 442155.000 527372.000 442259.000 527324.000 442296.000 527305.000 442310.000 527297.000 442352.000 527275.000 442374.792 527263.689 442408.661 527244.418 442474.357 527205.293 442554.359 527153.905 442559.849 527150.504 442614.214 527116.823 442655.384 527093.465 442684.289 527079.158 442700.000 527073.000 442722.000 527064.000 442745.000 527055.000 442769.000 527046.000 442792.000 527039.000 442845.000 527024.000 442934.000 527000.000 443000.000 526982.000 443039.000 526968.000 443070.000 526956.270 443076.000 526954.000 443087.000 526948.000 443112.000 526937.000 443125.462 526930.000 443137.000 526924.000 443156.000 526914.000 443184.000 526897.000 443214.000 526877.000 443247.000 526852.000 443250.000 526849.525 443287.000 526819.000 443297.000 526808.000 443306.000 526795.000 443310.000 526786.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447053_7F97184D90534990A615B2B1B911F35A">
+                <gml:posList srsDimension="2" count="5">447721.000 527470.000 447716.385 527468.077 447697.000 527460.000 447531.000 527385.000 447500.476 527371.047</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447054_A34DF41E20FF48069D2FDEECA6A65C21">
+                <gml:posList srsDimension="2" count="15">447721.000 527470.000 447716.278 527471.642 447698.000 527478.000 447691.000 527480.000 447681.000 527482.000 447673.000 527482.000 447655.000 527478.000 447628.000 527468.000 447598.000 527455.000 447592.000 527452.000 447571.000 527440.000 447519.000 527404.000 447514.000 527397.000 447510.000 527389.000 447500.476 527371.047</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447055_860D0F192D5948C0AFFEB80D0DFDEB16">
+                <gml:posList srsDimension="2" count="112">447721.000 527470.000 447737.000 527477.000 447750.000 527483.000 447756.524 527486.262 447774.000 527495.000 447782.000 527500.000 447791.323 527504.972 447812.000 527516.000 447851.000 527538.000 447862.000 527544.000 447911.000 527581.000 447952.000 527613.000 447972.000 527626.000 448000.000 527643.000 448060.000 527679.000 448070.000 527685.200 448160.000 527741.000 448196.794 527762.804 448214.000 527773.000 448248.000 527793.000 448271.000 527807.000 448344.000 527851.000 448400.000 527884.495 448451.000 527915.000 448483.454 527934.632 448520.000 527957.000 448562.000 527986.000 448582.000 528000.000 448635.000 528042.000 448672.852 528070.000 448708.000 528096.000 448712.000 528099.000 448843.000 528198.000 448859.000 528210.000 448888.800 528228.600 448917.600 528247.200 448922.415 528250.000 448963.000 528273.600 449001.400 528293.800 449036.000 528310.000 449057.000 528318.000 449091.000 528329.000 449134.000 528342.000 449166.000 528350.000 449260.000 528376.000 449289.000 528387.000 449303.000 528394.000 449317.000 528401.000 449338.000 528412.000 449371.000 528435.000 449396.000 528455.000 449411.000 528468.000 449427.000 528483.000 449443.000 528500.000 449454.378 528511.378 449455.000 528512.000 449500.000 528552.000 449508.715 528559.408 449520.000 528569.000 449531.000 528577.000 449565.000 528598.000 449596.000 528614.000 449610.000 528621.000 449709.000 528665.000 449712.291 528666.496 449731.000 528675.000 449756.000 528690.000 449779.992 528704.149 449799.386 528716.075 449813.000 528725.000 449824.000 528733.000 449833.000 528739.000 449849.000 528751.000 449863.000 528764.000 449870.500 528770.000 449878.000 528776.000 449908.000 528804.000 449931.000 528829.000 450000.000 528905.000 450054.953 528968.842 450068.000 528984.000 450078.935 528996.498 450100.969 529021.292 450112.000 529036.000 450124.000 529052.000 450134.000 529068.000 450162.000 529113.000 450171.000 529132.000 450178.000 529149.000 450188.000 529181.000 450190.000 529192.000 450192.644 529204.055 450198.000 529229.000 450199.000 529236.000 450211.000 529281.000 450211.826 529283.386 450229.000 529333.000 450233.000 529344.000 450245.000 529378.000 450268.000 529441.000 450274.000 529455.000 450283.000 529469.000 450287.000 529476.000 450289.000 529481.000 450290.915 529487.211 450291.676 529494.385 450291.000 529496.000 450290.000 529500.000 450290.000 529503.000 450291.000 529507.000 450292.328 529509.822 450294.285 529512.648</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447056_FB223355C0814799B9A7F429618F4F1F">
+                <gml:posList srsDimension="2" count="9">441846.000 527554.000 441846.000 527557.000 441847.000 527563.000 441850.000 527568.000 441853.000 527572.000 441858.000 527576.000 441863.000 527579.000 441868.000 527580.000 441872.000 527581.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447057_BEC4D637B62C4E73875DCD14E3156B2B">
+                <gml:posList srsDimension="2" count="11">441846.000 527554.000 441845.000 527548.000 441847.000 527543.000 441848.000 527540.000 441851.000 527535.000 441855.000 527531.000 441859.000 527527.000 441864.000 527525.000 441870.000 527523.000 441872.000 527523.000 441876.000 527523.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447058_3F69A5BF6D5B488C8D98644E4BFE8E27">
+                <gml:posList srsDimension="2" count="21">450946.000 532556.000 450951.000 532537.000 450951.069 532536.654 450951.975 532532.122 450954.000 532522.000 450955.000 532517.000 450955.000 532506.561 450955.000 532503.000 450955.000 532500.000 450954.000 532453.000 450954.000 532424.000 450958.000 532375.000 450967.000 532282.000 450969.000 532254.000 450969.000 532240.000 450969.452 532233.524 450970.511 532218.338 450972.000 532197.000 450971.000 532188.000 450967.667 532165.333 450966.000 532154.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447059_EFC5E810AF5B4654B4ABBB0956F16FF0">
+                <gml:posList srsDimension="2" count="8">450964.000 532639.000 450973.000 532655.000 450976.000 532660.000 450979.000 532663.000 450996.512 532685.263 451000.000 532689.000 451016.000 532706.000 451132.000 532816.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447060_B0CCF3B5609E48388D650B9EC622631D">
+                <gml:posList srsDimension="2" count="5">441538.143 527852.983 441542.660 527850.839 441590.853 527827.968 441595.000 527826.000 441595.356 527825.797</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447061_460341244C074542B37FCB54522AF447">
+                <gml:posList srsDimension="2" count="2">441538.143 527852.983 441528.710 527832.195</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447062_2157B780206E43009DACEC6329EC3CA4">
+                <gml:posList srsDimension="2" count="32">446586.863 526731.089 446590.745 526734.240 446604.000 526745.000 446608.751 526748.587 446610.622 526750.000 446612.741 526751.600 446616.731 526754.613 446653.000 526782.000 446710.000 526829.000 446750.000 526861.381 446773.000 526880.000 446830.000 526924.000 446837.556 526930.000 446837.913 526930.284 446853.575 526942.722 446864.000 526951.000 446869.442 526954.887 446906.000 526981.000 446917.000 526989.000 446932.000 527000.000 446940.000 527006.000 446961.000 527021.000 447000.000 527055.000 447114.000 527161.000 447175.000 527208.000 447208.000 527230.000 447241.000 527250.000 447283.000 527272.000 447328.458 527292.911 447333.000 527295.000 447337.553 527297.067 447500.476 527371.047</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447063_6FF2451178F143BE85539959E87E6864">
+                <gml:posList srsDimension="2" count="12">450914.000 531859.000 450920.000 531867.000 450923.000 531875.000 450930.920 531930.000 450940.443 531996.130 450941.000 532000.000 450949.571 532047.996 450951.000 532056.000 450954.000 532085.000 450956.000 532126.000 450956.311 532135.012 450957.000 532155.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447064_5BD978F433E0494B9CB7F9EA14DBA981">
+                <gml:posList srsDimension="2" count="7">450914.000 531859.000 450917.000 531860.000 450923.000 531861.000 450927.000 531861.000 450929.000 531860.000 450933.000 531858.000 450937.000 531856.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447065_E5A4362640E6410A9E3FDB8320785461">
+                <gml:posList srsDimension="2" count="20">450935.000 531818.000 450932.000 531817.000 450928.000 531815.000 450924.000 531815.000 450917.000 531816.000 450913.000 531817.000 450908.000 531820.000 450906.000 531823.000 450904.000 531825.000 450902.000 531829.000 450901.000 531831.000 450900.000 531838.000 450900.920 531841.681 450901.000 531842.000 450902.000 531848.000 450905.000 531852.000 450906.000 531853.000 450908.000 531855.000 450912.000 531858.000 450914.000 531859.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447066_8C8573F68ED549FEBC89BC50F4E5D291">
+                <gml:posList srsDimension="2" count="13">450935.000 531818.000 450938.000 531820.000 450941.000 531823.000 450942.000 531825.000 450943.000 531826.000 450946.000 531833.000 450946.000 531838.000 450946.000 531842.000 450945.000 531844.000 450945.000 531845.000 450943.000 531850.000 450940.000 531853.000 450937.000 531856.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447067_593E32B67D4F4346AADB67709013E246">
+                <gml:posList srsDimension="2" count="18">440477.000 528391.000 440501.000 528375.000 440516.000 528363.000 440529.040 528352.233 440558.000 528328.000 440622.000 528273.000 440649.182 528250.000 440674.000 528229.000 440704.000 528206.000 440739.000 528182.000 440761.000 528167.000 440796.000 528146.000 440827.000 528128.000 440853.000 528115.000 440923.000 528080.000 440944.389 528070.000 441000.000 528044.000 441053.334 528019.238</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447068_887609F96A73463C8439EDDD520D4618">
+                <gml:posList srsDimension="2" count="2">450476.000 530269.000 450470.000 530277.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447069_A7EDE4110B0E4B5C92B18BA2634FD9AD">
+                <gml:posList srsDimension="2" count="17">450476.000 530269.000 450488.442 530280.923 450500.000 530292.000 450507.300 530297.973 450511.000 530301.000 450511.155 530301.155 450514.800 530304.577 450535.013 530323.556 450593.000 530378.000 450607.727 530391.533 450630.000 530412.000 450660.537 530439.704 450727.000 530500.000 450882.296 530644.552 450886.000 530648.000 450892.000 530652.000 450902.000 530657.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447070_FAC4CEC885124D6FA62C46DC63B82C97">
+                <gml:posList srsDimension="2" count="17">450887.000 530682.000 450881.000 530661.000 450878.000 530656.000 450876.000 530654.000 450804.380 530587.956 450762.703 530549.523 450713.567 530504.211 450709.000 530500.000 450599.739 530399.519 450597.000 530397.000 450585.000 530386.000 450507.462 530312.715 450503.828 530309.281 450500.032 530306.027 450500.000 530306.000 450482.210 530288.803 450470.000 530277.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447071_05B098AD95814AC69AF94B0BDC03A90D">
+                <gml:posList srsDimension="2" count="18">441584.000 527806.000 441589.000 527802.000 441600.000 527796.133 441604.000 527794.000 441623.000 527781.000 441641.000 527769.000 441658.000 527757.000 441673.000 527745.000 441690.000 527731.000 441700.000 527722.000 441727.000 527697.000 441749.000 527675.000 441750.000 527673.928 441818.000 527601.000 441829.000 527586.000 441833.000 527579.000 441838.000 527571.000 441846.000 527554.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447072_6950FAD5453F4F3A8816814725553322">
+                <gml:posList srsDimension="2" count="3">450351.318 529914.546 450360.170 529921.617 450366.411 529940.175</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447073_57F3BF5783314F588993818D644C6F29">
+                <gml:posList srsDimension="2" count="13">450351.318 529914.546 450352.000 529918.000 450358.330 529962.604 450361.484 529987.801 450365.495 530014.109 450371.696 530054.772 450372.985 530063.229 450376.000 530083.000 450377.019 530090.470 450385.000 530149.000 450386.838 530162.481 450388.000 530171.000 450391.000 530182.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447074_9E39CA0BA62E4C80BDBBC0C47BBF7C43">
+                <gml:posList srsDimension="2" count="6">450437.000 530233.000 450440.000 530236.000 450449.915 530245.089 450462.958 530257.044 450471.920 530265.260 450476.000 530269.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447075_0D6C785315A04314B1AD51E7C77F9C35">
+                <gml:posList srsDimension="2" count="2">450437.000 530233.000 450429.000 530241.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447076_12FF34B1A4EA420FA8D6AACB809B045F">
+                <gml:posList srsDimension="2" count="47">443333.000 526815.000 443322.000 526816.000 443316.000 526818.000 443310.000 526820.000 443306.000 526822.000 443267.000 526855.000 443250.000 526867.325 443227.000 526884.000 443207.000 526898.000 443187.000 526911.000 443153.290 526930.000 443132.000 526942.000 443086.213 526965.321 443070.000 526972.645 443067.000 526974.000 443000.000 527000.000 442973.649 527008.171 442915.000 527026.000 442867.000 527040.000 442814.000 527054.000 442766.000 527070.000 442728.000 527083.000 442686.000 527100.000 442657.000 527113.000 442630.000 527126.000 442618.000 527132.000 442604.000 527140.000 442574.000 527158.000 442551.000 527172.000 442490.000 527210.000 442436.000 527245.000 442379.000 527279.000 442374.000 527283.000 442264.000 527339.000 442129.000 527401.000 442079.000 527425.000 442038.000 527446.000 442009.000 527462.026 442000.000 527467.000 441985.000 527476.000 441958.000 527494.000 441935.000 527511.000 441930.000 527515.583 441923.000 527522.000 441920.000 527525.000 441911.000 527538.000 441903.000 527558.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447077_20F8B75F855246E7A656CFA27A6526BC">
+                <gml:posList srsDimension="2" count="2">441191.000 527967.000 441186.000 527956.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447078_56F0FF3F1E5B499D895B3D9E68901B16">
+                <gml:posList srsDimension="2" count="10">441191.000 527967.000 441230.000 527949.357 441233.000 527948.000 441278.000 527930.000 441331.000 527913.000 441368.000 527901.000 441410.000 527890.000 441472.000 527874.000 441491.000 527868.000 441538.143 527852.983</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447079_30CC1D03012547DDB464DD57508DB1D3">
+                <gml:posList srsDimension="2" count="14">450294.285 529512.648 450296.785 529519.714 450298.742 529530.150 450308.000 529598.000 450313.509 529639.867 450318.000 529674.000 450324.000 529716.000 450325.401 529726.430 450326.548 529734.969 450333.204 529784.522 450342.000 529850.000 450346.000 529876.000 450350.000 529907.000 450351.318 529914.546</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447080_639509F38851463BB75C5274C294ECAC">
+                <gml:posList srsDimension="2" count="5">441062.000 528028.000 441121.000 528000.000 441164.000 527979.000 441172.724 527975.123 441191.000 527967.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447081_1620FE22CF574C778F67834EF3539BB7">
+                <gml:posList srsDimension="2" count="17">441062.000 528028.000 441067.000 528035.000 441074.000 528042.000 441078.000 528044.000 441082.000 528046.000 441085.000 528047.000 441088.000 528047.000 441092.000 528046.000 441116.000 528033.000 441172.000 528000.000 441179.000 527997.000 441182.000 527994.000 441187.000 527990.000 441189.000 527986.000 441191.000 527982.000 441192.000 527977.000 441191.000 527967.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447082_D4B1F2A8D93A47898B3DA2EC45F11CDD">
+                <gml:posList srsDimension="2" count="2">441062.000 528028.000 441053.334 528019.238</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447083_41098017C3174F90AB3D2C59589786F0">
+                <gml:posList srsDimension="2" count="16">449424.000 528462.000 449427.031 528459.091 449428.081 528456.242 449428.830 528452.493 449428.000 528448.000 449427.000 528446.000 449420.882 528436.296 449412.634 528423.549 449402.586 528412.301 449389.839 528401.503 449378.591 528394.155 449365.394 528389.056 449355.000 528386.000 449349.000 528386.000 449345.000 528386.000 449336.750 528391.006</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447084_394886C3D85A4ED49C5FFF3982E68DEB">
+                <gml:posList srsDimension="2" count="54">449424.000 528462.000 449455.000 528493.000 449462.000 528500.000 449499.000 528536.000 449500.000 528537.000 449520.000 528554.000 449545.000 528571.000 449565.000 528583.000 449571.000 528587.000 449590.000 528596.000 449629.000 528614.000 449731.000 528655.000 449748.000 528661.000 449764.000 528668.000 449772.000 528671.000 449781.000 528675.000 449802.387 528686.830 449809.000 528691.000 449822.000 528700.000 449829.000 528705.000 449834.000 528709.000 449840.000 528714.000 449845.000 528719.000 449858.000 528731.000 449881.000 528755.000 449894.626 528770.000 450000.000 528886.000 450057.000 528949.000 450067.305 528961.545 450080.000 528977.000 450092.479 528992.106 450099.000 529000.000 450117.047 529022.571 450136.000 529049.000 450151.955 529075.387 450170.000 529103.000 450170.488 529104.003 450188.000 529140.000 450194.000 529156.000 450199.000 529174.000 450202.000 529190.000 450209.000 529227.000 450211.000 529237.000 450215.000 529253.000 450225.000 529287.000 450240.000 529328.000 450256.000 529374.000 450259.587 529383.771 450285.000 529453.000 450290.000 529463.000 450295.000 529470.000 450298.000 529475.000 450304.938 529482.428 450312.004 529487.319</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447085_A0AD526518934A858C51CF90E79B0474">
+                <gml:posList srsDimension="2" count="5">450470.000 530277.000 450456.333 530265.000 450442.667 530253.000 450431.776 530243.437 450429.000 530241.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447086_37A05A66FD644E1F9C5BD0149C266112">
+                <gml:posList srsDimension="2" count="33">450980.000 531511.000 450982.000 531505.000 450983.000 531500.000 450984.605 531491.575 450995.000 531437.000 451000.000 531414.000 451004.000 531397.000 451020.000 531321.000 451031.000 531240.000 451032.026 531230.000 451039.000 531162.000 451041.000 531144.000 451042.000 531125.000 451045.000 531077.000 451050.000 531000.000 451052.631 530954.401 451053.000 530948.000 451053.000 530937.000 451053.000 530921.000 451052.000 530909.000 451049.000 530886.000 451042.000 530856.000 451033.000 530831.000 451027.000 530819.000 451015.000 530797.000 451008.000 530786.000 451000.000 530776.000 450994.000 530768.000 450981.000 530752.000 450935.000 530707.000 450930.000 530704.000 450926.000 530702.000 450917.000 530700.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447087_C6A70F6627584D8AACFF0F66718FBF7C">
+                <gml:posList srsDimension="2" count="12">450366.411 529940.175 450369.580 529960.591 450372.323 529979.754 450374.000 529991.000 450375.000 530000.000 450386.000 530082.000 450387.000 530087.000 450395.000 530143.000 450396.000 530152.000 450398.769 530167.229 450400.000 530174.000 450402.000 530179.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447088_10982257DA7F499886E4566D475EE400">
+                <gml:posList srsDimension="2" count="19">450366.411 529940.175 450362.000 529906.000 450359.000 529889.000 450357.000 529875.000 450356.000 529865.000 450335.000 529714.000 450319.000 529598.000 450315.000 529564.000 450313.425 529543.528 450312.000 529525.000 450312.330 529520.692 450313.200 529517.975 450314.939 529514.170 450310.917 529516.344 450307.438 529517.214 450303.851 529517.323 450299.938 529516.344 450297.003 529514.931 450294.285 529512.648</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447089_0EF11357D3154BFC8F90A3E23A77684D">
+                <gml:posList srsDimension="2" count="6">441528.710 527832.195 441533.234 527830.066 441544.000 527825.000 441577.000 527809.000 441579.404 527807.970 441584.000 527806.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447090_B96BCBC16AA748369631C2F0384E8225">
+                <gml:posList srsDimension="2" count="18">440482.000 528402.000 440500.000 528389.000 440536.000 528363.000 440556.000 528346.000 440625.000 528286.000 440646.000 528268.000 440667.706 528250.000 440687.000 528234.000 440712.000 528215.000 440746.000 528193.000 440786.000 528167.000 440832.000 528140.000 440869.000 528120.000 440913.000 528099.000 440961.000 528076.000 440973.316 528070.000 441000.000 528057.000 441062.000 528028.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447091_DAE613AF6C5A400B9B2B716A20C841D4">
+                <gml:posList srsDimension="2" count="2">450402.000 530179.000 450391.000 530182.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447092_503369C590124118A8C4EB03FA8EFE6F">
+                <gml:posList srsDimension="2" count="7">450402.000 530179.000 450404.000 530185.000 450406.325 530189.293 450411.663 530199.146 450417.000 530209.000 450430.333 530225.000 450437.000 530233.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447093_34306CF4003049D89991CCBC1BA4C31F">
+                <gml:posList srsDimension="2" count="10">441186.000 527956.000 441230.000 527937.612 441253.000 527928.000 441280.000 527917.000 441337.000 527898.000 441382.000 527884.000 441427.000 527870.000 441507.000 527842.000 441527.000 527833.000 441528.710 527832.195</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447094_9F6B3D6D4349431A93AF24A79C8131F3">
+                <gml:posList srsDimension="2" count="16">441595.356 527825.797 441600.000 527823.143 441630.000 527806.000 441657.000 527788.000 441681.000 527771.000 441702.000 527754.000 441725.000 527731.000 441750.000 527704.571 441760.000 527694.000 441833.000 527614.000 441846.000 527600.000 441852.000 527592.000 441860.000 527585.000 441864.000 527583.000 441867.000 527582.000 441872.000 527581.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447095_256EC522CBE6493F870249398267C809">
+                <gml:posList srsDimension="2" count="2">441595.356 527825.797 441584.000 527806.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447096_09D5EC445FEE4B8CB7E7D32EB71444EC">
+                <gml:posList srsDimension="2" count="42">450934.000 530678.000 450939.000 530692.000 450945.000 530702.000 450949.000 530706.000 450985.000 530742.000 451000.000 530759.000 451009.000 530768.000 451013.000 530774.000 451022.000 530787.000 451036.000 530812.000 451047.000 530836.000 451055.000 530858.000 451057.000 530869.000 451061.000 530883.000 451064.000 530897.000 451065.000 530907.000 451066.000 530921.000 451066.000 530931.000 451066.000 530944.000 451064.000 530984.000 451062.000 531000.000 451054.000 531143.000 451054.000 531146.000 451048.000 531201.000 451044.045 531230.000 451039.000 531267.000 451027.000 531335.000 451000.000 531474.000 450997.009 531493.440 450996.000 531500.000 450995.000 531506.000 450993.000 531513.000 450991.000 531521.000 450978.000 531575.000 450972.542 531600.000 450947.000 531717.000 450940.316 531750.000 450935.741 531772.591 450931.000 531796.000 450931.000 531803.303 450931.000 531804.000 450935.000 531818.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447097_1F4EA552873B42459EE57659EA7B86DC">
+                <gml:posList srsDimension="2" count="7">441053.334 528019.238 441056.000 528018.000 441057.854 528017.100 441091.000 528001.000 441092.000 528000.000 441168.130 527964.800 441186.000 527956.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447098_1E8E2CDEF31A46C6941318FB45CE2FB9">
+                <gml:posList srsDimension="2" count="35">446501.000 526663.000 446495.000 526659.000 446489.000 526654.000 446484.876 526651.210 446466.365 526638.688 446462.224 526635.887 446458.083 526633.085 446455.000 526631.000 446440.345 526619.969 446436.350 526616.962 446432.355 526613.955 446413.814 526600.000 446357.905 526557.893 446357.883 526557.877 446333.000 526539.000 446294.000 526508.000 446251.000 526469.000 446230.000 526448.000 446216.000 526434.000 446190.000 526406.000 446142.878 526350.000 446121.000 526324.000 446086.000 526284.000 446051.000 526249.000 446042.000 526240.000 446030.421 526230.000 446020.000 526221.000 446000.000 526205.000 445952.000 526169.000 445924.000 526151.000 445914.000 526145.000 445874.000 526121.000 445841.000 526103.000 445838.057 526101.599 445820.000 526093.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447099_5FF510E0173B4871BC016AAB6A4CD684">
+                <gml:posList srsDimension="2" count="2">450966.000 532154.000 450957.000 532155.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447100_5A20373072474AAEB1BCBD7CB269F9CB">
+                <gml:posList srsDimension="2" count="5">449336.750 528391.006 449357.146 528405.103 449380.391 528421.599 449399.000 528439.000 449424.000 528462.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447101_20DB2193311E43E98E68C6A727BFD939">
+                <gml:posList srsDimension="2" count="89">449336.750 528391.006 449317.704 528381.408 449297.308 528371.060 449277.062 528362.812 449259.216 528356.963 449230.122 528349.314 449174.000 528335.000 449173.000 528335.000 449170.000 528334.000 449166.000 528333.000 449137.000 528326.000 449132.000 528324.000 449085.600 528309.600 449041.600 528293.400 448999.000 528275.200 448971.000 528261.800 448949.389 528250.000 448938.400 528244.000 448907.200 528224.400 448884.600 528210.400 448843.800 528181.800 448715.000 528087.000 448692.669 528070.000 448601.555 528000.638 448600.737 528000.000 448552.000 527962.000 448547.000 527959.000 448501.000 527928.000 448490.565 527921.205 448458.000 527900.000 448400.000 527865.200 448398.000 527864.000 448322.000 527816.000 448283.000 527793.000 448224.000 527757.000 448206.788 527746.813 448175.000 527728.000 448101.000 527684.000 448070.000 527665.293 448043.000 527649.000 448004.000 527623.000 447965.000 527594.000 447927.000 527569.000 447867.000 527531.000 447812.000 527500.000 447796.779 527492.159 447779.000 527483.000 447764.000 527475.000 447761.290 527473.713 447724.000 527456.000 447584.000 527391.000 447527.000 527364.000 447500.000 527352.000 447424.000 527318.000 447392.000 527306.000 447347.000 527284.000 447344.596 527282.970 447340.000 527281.000 447335.528 527278.764 447298.000 527260.000 447240.000 527230.000 447221.000 527218.000 447202.000 527206.000 447161.000 527177.000 447125.000 527150.000 447099.000 527129.000 447050.000 527085.000 447000.000 527037.000 446989.000 527027.000 446956.000 527000.000 446926.000 526978.000 446903.000 526960.000 446880.638 526943.899 446864.407 526932.213 446861.333 526930.000 446848.176 526920.527 446803.000 526888.000 446750.000 526846.968 446741.000 526840.000 446632.633 526750.000 446625.643 526744.195 446623.000 526742.000 446621.774 526741.029 446617.855 526737.925 446599.164 526723.120 446595.245 526720.016 446591.326 526716.912 446555.624 526688.633 446551.705 526685.529</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+            <gml:curveMember>
+              <gml:LineString gml:id="LOCAL_ID_2447102_3EF4906D344A4F03B6027832DC7CC6B4">
+                <gml:posList srsDimension="2" count="29">446444.149 526605.909 446440.093 526602.986 446435.950 526600.000 446386.000 526564.000 446364.836 526548.608 446334.000 526526.000 446287.000 526486.000 446270.000 526472.000 446258.000 526460.000 446242.000 526444.000 446230.000 526431.333 446224.000 526425.000 446205.625 526404.656 446196.000 526394.000 446159.111 526350.000 446117.812 526300.739 446113.000 526295.000 446088.000 526270.000 446059.000 526241.000 446050.512 526234.224 446037.512 526223.024 446000.000 526192.000 445952.000 526155.000 445924.000 526137.000 445914.000 526131.000 445874.000 526107.000 445844.026 526090.651 445841.000 526089.000 445826.000 526082.000</gml:posList>
+              </gml:LineString>
+            </gml:curveMember>
+          </gml:MultiCurve>
+        </highway:geometry>
+        <highway:gssCode xlink:href="#E06000001" xlink:role="Unitary Local Authority"/>
+      </highway:Street>
+</os:featureMember>
+
+<os:featureMember><!-->AccessRestriction<-->
+<ram:AccessRestriction gml:id="osgb4000000003210839">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210839</gml:identifier>
+        <net:networkRef>
+          <network:PointReference>
+            <net:element xlink:href="#osgb4000000003210854"/>
+            <net:applicableDirection xlink:title="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection" xlink:href="#in opposite direction"/>
+            <net:atPosition uom="m">36.24</net:atPosition>
+            <network:atPositionGeometry>
+              <gml:Point gml:id="LOCAL_ID_1_4D3C08393D911F4DE0530B8EA00A595C" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>463596.000 1209719.000</gml:pos>
+              </gml:Point>
+            </network:atPositionGeometry>
+          </network:PointReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003210839</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom>2008-07-16T00:00:00.000</tn:validFrom>
+        <tn:restriction xlink:title="forbidden legally" xlink:href="http://inspire.ec.europa.eu/codelist/AccessRestrictionValue/forbiddenLegally"/>
+        <ram:inclusion>
+          <ram:VehicleQualifier>
+            <ram:vehicle codeSpace="http://www.os.uk/xml/codelists/highways/VehicleTypeValue.xml">All Vehicles</ram:vehicle>
+          </ram:VehicleQualifier>
+        </ram:inclusion>
+        <ram:exemption>
+          <ram:VehicleQualifier>
+            <ram:vehicle codeSpace="http://www.os.uk/xml/codelists/highways/VehicleTypeValue.xml">Buses</ram:vehicle>
+          </ram:VehicleQualifier>
+        </ram:exemption>
+        <ram:trafficSign>No Entry</ram:trafficSign>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</ram:reasonForChange>
+      </ram:AccessRestriction>
+</os:featureMember>
+<os:featureMember><!-->Hazard<-->
+<ram:Hazard gml:id="osgb4000000003222742">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003222742</gml:identifier>
+        <net:networkRef>
+          <network:PointReference>
+            <net:element xlink:href="#osgb5000005111016618"/>
+            <net:applicableDirection xlink:title="both directions" xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections"/>
+            <net:atPosition uom="m">522.14</net:atPosition>
+            <network:atPositionGeometry>
+              <gml:Point gml:id="LOCAL_ID_1_4D3BE7410D711F47E0530B8EA00A737F" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>443297.858 1137220.078</gml:pos>
+              </gml:Point>
+            </network:atPositionGeometry>
+          </network:PointReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003222742</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom xsi:nil="true" nilReason="unknown"/>
+        <ram:hazard codeSpace="http://www.os.uk/xml/codelists/highways/HazardTypeValue.xml">Ford</ram:hazard>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:Hazard>
+</os:featureMember>
+
+<os:featureMember><!-->Hazard<-->
+<ram:Hazard gml:id="osgb4000000003301935">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003301935</gml:identifier>
+        <net:networkRef>
+          <net:LinkReference>
+            <net:element xlink:href="#osgb4000000003305135"/>
+            <net:applicableDirection xlink:title="in opposite direction" xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection"/>
+          </net:LinkReference>
+        </net:networkRef>
+        <net:networkRef>
+          <net:LinkReference>
+            <net:element xlink:href="#osgb4000000003305561"/>
+            <net:applicableDirection xlink:title="in opposite direction" xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inOppositeDirection"/>
+          </net:LinkReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003301935</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom xsi:nil="true" nilReason="unknown"/>
+        <ram:hazard codeSpace="http://www.os.uk/xml/codelists/highways/HazardTypeValue.xml">Severe Turn</ram:hazard>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:Hazard>
+</os:featureMember>
+
+<os:featureMember><!-->Maintenance<-->
+<ram:Maintenance gml:id="id_0016MA00000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/0016MA03357245</gml:identifier>
+        <net:networkRef>
+          <net:NetworkReference>
+            <net:element xlink:href="#usrn410092900000000000000000000000"/>
+          </net:NetworkReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>usrn4100929000000000000000000000000</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-03-24T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom>1995-03-31T00:00:00.000</tn:validFrom>
+        <ram:maintenanceResponsibility>Maintainable At Public Expense--------------</ram:maintenanceResponsibility>
+        <ram:maintenanceAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>0016</highway:identifier>
+            <highway:authorityName>Welsh Government</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </ram:maintenanceAuthority>
+        <ram:partialReference>false</ram:partialReference>
+        <ram:highwayAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>6850</highway:identifier>
+            <highway:authorityName>Powys</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </ram:highwayAuthority>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Attributes-------------</ram:reasonForChange>
+      </ram:Maintenance>
+</os:featureMember>
+<os:featureMember><!-->Maintenance<-->
+<ram:Maintenance gml:id="id_0430MA00000000">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/0430MA03642638</gml:identifier>
+        <net:networkRef>
+          <ram:NetworkReferenceLocation>
+            <net:element xlink:href="#usrn45500179"/>
+            <ram:locationDescription>AREA BETWEEN 69-81 IS PUBLIC - REMAINING PART OF STREET IS PRIVATE</ram:locationDescription>
+            <ram:locationStart>
+              <gml:Point gml:id="LOCAL_ID_1_4D3BED2C30021F4BE0530B8EA00A065B" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>489301.000 188093.000</gml:pos>
+              </gml:Point>
+            </ram:locationStart>
+            <ram:locationEnd>
+              <gml:Point gml:id="LOCAL_ID_1_4D3BED2C30031F4BE0530B8EA00A065B" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>489325.000 188132.000</gml:pos>
+              </gml:Point>
+            </ram:locationEnd>
+          </ram:NetworkReferenceLocation>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>0430MA03642638</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom>2017-01-04T00:00:00.000</tn:validFrom>
+        <ram:maintenanceResponsibility>Maintainable At Public Expense</ram:maintenanceResponsibility>
+        <ram:maintenanceAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>0430</highway:identifier>
+            <highway:authorityName>Buckinghamshire</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </ram:maintenanceAuthority>
+        <ram:partialReference>true</ram:partialReference>
+        <ram:highwayAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>0430</highway:identifier>
+            <highway:authorityName>Buckinghamshire</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </ram:highwayAuthority>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</ram:reasonForChange>
+      </ram:Maintenance>
+</os:featureMember>
+<os:featureMember><!-->Maintenance partialReference=false<-->
+<ram:Maintenance gml:id="id_3500MA02479018">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/3500MA02479018</gml:identifier>
+        <net:networkRef>
+          <net:NetworkReference>
+            <net:element xlink:href="#usrn37404404"/>
+          </net:NetworkReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>3500MA02479018</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom>2013-10-24T00:00:00.000</tn:validFrom>
+        <ram:maintenanceResponsibility>Not Maintained At Public Expense</ram:maintenanceResponsibility>
+        <ram:maintenanceAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>3500</highway:identifier>
+            <highway:authorityName>Suffolk</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </ram:maintenanceAuthority>
+        <ram:partialReference>false</ram:partialReference>
+        <ram:highwayAuthority>
+          <highway:ResponsibleAuthority>
+            <highway:identifier>3500</highway:identifier>
+            <highway:authorityName>Suffolk</highway:authorityName>
+          </highway:ResponsibleAuthority>
+        </ram:highwayAuthority>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:Maintenance>
+</os:featureMember>
+<os:featureMember><!-->Reinstatement<-->
+<ram:Reinstatement gml:id="id_0016RI02531260">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/0016RI02531260</gml:identifier>
+        <net:networkRef>
+          <net:NetworkReference>
+            <net:element xlink:href="#usrn25100304"/>
+          </net:NetworkReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>0016RI02531260</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-01-20T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom xsi:nil="true" nilReason="unknown"/>
+        <ram:reinstatementType codeSpace="http://www.os.uk/xml/codelists/highways/ReinstatementTypeValue.xml">Carriageway Type 1</ram:reinstatementType>
+        <ram:partialReference>false</ram:partialReference>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:Reinstatement>
+</os:featureMember>
+<os:featureMember><!-->RestrictionForVehicles<-->
+<ram:RestrictionForVehicles gml:id="osgb4000000000000006">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000000000006</gml:identifier>
+        <net:networkRef>
+          <network:PointReference>
+            <net:element xlink:href="#osgb4000000026232819"/>
+            <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
+            <net:atPosition uom="m">7.26</net:atPosition>
+            <network:atPositionGeometry>
+              <gml:Point gml:id="LOCAL_ID_1_4D3BE74216331F4FE0530B8EA00A4F07" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>408535.493 90738.126</gml:pos>
+              </gml:Point>
+            </network:atPositionGeometry>
+          </network:PointReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000000000006</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <tn:measure uom="m">2.1</tn:measure>
+        <tn:restrictionType xlink:title="maximum height" xlink:href="http://inspire.ec.europa.eu/codelist/RestrictionTypeValue/maximumHeight"/>
+        <ram:sourceOfMeasure>Signed</ram:sourceOfMeasure>
+        <ram:structure codeSpace="http://www.os.uk/xml/codelists/highways/StructureTypeValue.xml">Barrier</ram:structure>
+        <ram:trafficSign>Vehicles Exceeding Height 2.1m Prohibited</ram:trafficSign>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:RestrictionForVehicles>
+</os:featureMember>
+<os:featureMember><!-->SpecialDesignation<-->
+<ram:SpecialDesignation gml:id="id_0011SD00509668">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/0011SD00509668</gml:identifier>
+        <net:networkRef>
+          <net:NetworkReference>
+            <net:element xlink:href="#usrn99500451"/>
+          </net:NetworkReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>0011SD00509668</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2016-11-15T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <ram:designation codeSpace="http://www.os.uk/xml/codelists/highways/SpecialDesignationTypeValue.xml">Protected Street</ram:designation>
+        <ram:timeInterval>
+          <ram:TemporalPropertyType>
+            <ram:namedDate codeSpace="http://www.os.uk/xml/codelists/highways/NamedDate.xml">All Year</ram:namedDate>
+            <ram:dayPeriod>
+              <ram:DayPropertyType>
+                <ram:namedDay codeSpace="http://www.os.uk/xml/codelists/highways/NamedDay.xml">All Days</ram:namedDay>
+              </ram:DayPropertyType>
+            </ram:dayPeriod>
+          </ram:TemporalPropertyType>
+        </ram:timeInterval>
+        <ram:partialReference>false</ram:partialReference>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:SpecialDesignation>
+</os:featureMember>
+<os:featureMember><!-->SpecialDesignation partialReference=true<-->
+	<ram:SpecialDesignation gml:id="id_0011SD00528164">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/0011SD00528164</gml:identifier>
+        <net:networkRef>
+          <ram:NetworkReferenceLocation>
+            <net:element xlink:href="#usrn99503352"/>
+            <ram:locationDescription>LEFT LINK NE RETAINING WALL - 23026</ram:locationDescription>
+            <ram:locationStart>
+              <gml:Point gml:id="LOCAL_ID_1_571E8C6660A653CDE0530B8EA00AF5F0" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>557510.000 178030.000</gml:pos>
+              </gml:Point>
+            </ram:locationStart>
+            <ram:locationEnd>
+              <gml:Point gml:id="LOCAL_ID_1_571E8C6660A753CDE0530B8EA00AF5F0" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>557510.000 178030.000</gml:pos>
+              </gml:Point>
+            </ram:locationEnd>
+          </ram:NetworkReferenceLocation>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>0011SD00528164</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2017-04-15T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom nilReason="unknown" xsi:nil="true"/>
+        <ram:designation codeSpace="http://www.os.uk/xml/codelists/highways/SpecialDesignationTypeValue.xml">Special Engineering Difficulty</ram:designation>
+        <ram:description>RETAINING WALL - A282</ram:description>
+        <ram:timeInterval>
+          <ram:TemporalPropertyType>
+            <ram:namedDate codeSpace="http://www.os.uk/xml/codelists/highways/NamedDate.xml">All Year</ram:namedDate>
+            <ram:dayPeriod>
+              <ram:DayPropertyType>
+                <ram:namedDay codeSpace="http://www.os.uk/xml/codelists/highways/NamedDay.xml">All Days</ram:namedDay>
+              </ram:DayPropertyType>
+            </ram:dayPeriod>
+          </ram:TemporalPropertyType>
+        </ram:timeInterval>
+        <ram:partialReference>true</ram:partialReference>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">Modified Geometry</ram:reasonForChange>
+      </ram:SpecialDesignation>
+</os:featureMember>
+<os:featureMember><!-->Structure<-->
+<ram:Structure gml:id="osgb4000000003210020">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000003210020</gml:identifier>
+        <net:networkRef>
+          <network:PointReference>
+            <net:element xlink:href="#osgb4000000003210506"/>
+            <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/bothDirections" xlink:title="both directions"/>
+            <net:atPosition uom="m">1175.44</net:atPosition>
+            <network:atPositionGeometry>
+              <gml:Point gml:id="LOCAL_ID_1_4D3C302C63931F2EE0530B8EA00A13E5" srsName="urn:ogc:def:crs:EPSG::27700">
+                <gml:pos>457274.029 1203590.951</gml:pos>
+              </gml:Point>
+            </network:atPositionGeometry>
+          </network:PointReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000003210020</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom xsi:nil="true" nilReason="unknown"/>
+        <ram:structure codeSpace="http://www.os.uk/xml/codelists/highways/StructureTypeValue.xml">Gate</ram:structure>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:Structure>
+</os:featureMember>
+<os:featureMember><!-->TurnRestriction<-->
+<ram:TurnRestriction gml:id="osgb4000000021450876">
+        <gml:identifier codeSpace="http://inspire.jrc.ec.europa.eu/ids">http://data.os.uk/id/4000000021450876</gml:identifier>
+        <net:networkRef>
+          <net:LinkReference>
+            <net:element xlink:href="#osgb4000000021762189"/>
+            <net:applicableDirection xlink:href="http://inspire.ec.europa.eu/codelist/LinkDirectionValue/inDirection" xlink:title="in direction"/>
+          </net:LinkReference>
+        </net:networkRef>
+        <net:inspireId>
+          <base:Identifier>
+            <base:localId>4000000021450876</base:localId>
+            <base:namespace>http://data.os.uk/</base:namespace>
+          </base:Identifier>
+        </net:inspireId>
+        <net:beginLifespanVersion>2016-06-17T00:00:00.000</net:beginLifespanVersion>
+        <tn:validFrom xsi:nil="true" nilReason="unknown"/>
+        <ram:restriction codeSpace="http://www.os.uk/xml/codelists/highways/TurnRestrictionValue.xml">One Way</ram:restriction>
+        <ram:reasonForChange codeSpace="http://www.os.uk/xml/codelists/ChangeTypeValue.xml">New</ram:reasonForChange>
+      </ram:TurnRestriction>
+</os:featureMember>
+</os:FeatureCollection>
